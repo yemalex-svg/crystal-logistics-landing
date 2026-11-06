@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Crystal Logistics — водородная система KM-CT4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;background:#fff;color:#18191b;font-family:"Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#18191b}a:hover{color:#0161ce}
+*{box-sizing:border-box}
+p,h1,h2,h3{margin:0}
+.wrap{max-width:1440px;margin:0 auto;padding:0 32px}
+.h1{font-size:54px;line-height:1.1;font-weight:600;letter-spacing:-0.025em}
+.h2{font-size:44px;line-height:1.15;font-weight:600;letter-spacing:-0.02em}
+.h3m{font-size:36px;line-height:1.15;font-weight:500;letter-spacing:-0.02em}
+.title{font-size:19px;line-height:1.3;font-weight:500}
+.lead{font-size:18px;line-height:1.5}
+.body{font-size:16px;line-height:1.55}
+.small{font-size:15px;line-height:1.55}
+.cap{font-size:13px;line-height:1.4}
+.num{font-size:44px;line-height:1.05;font-weight:500;letter-spacing:-0.02em;font-variant-numeric:tabular-nums}
+.m18{font-size:18px;line-height:1.3;font-weight:500}
+.m24{font-size:24px;line-height:1.2;font-weight:500;letter-spacing:-0.01em}
+.c2{color:#5d6470}.c3{color:#8b919c}.cw{color:#fff}.cg{color:#a8adb5}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:51px;padding:0 28px;border-radius:8px;font:500 16px/1.2 "Inter",sans-serif;text-decoration:none;border:0;cursor:pointer;transition:background-color .15s ease}
+.btn-dark{background:#18191b;color:#fff}.btn-dark:hover{background:#2e3033;color:#fff}
+.btn-blue{background:#0161ce;color:#fff}.btn-blue:hover{background:#014fa9;color:#fff}
+.btn:focus-visible,.navlink:focus-visible,.arrow:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,.lang:focus-visible,a:focus-visible{outline:3px solid #0161ce;outline-offset:2px}
+.pill{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;background:#f3f4f6;color:#18191b;font-size:14px;line-height:1.55;white-space:nowrap}
+.pill-blue{background:#dce9fb;color:#0a2a52}
+.tile{background:#f3f4f6;border-radius:12px}
+.arrow{width:48px;height:48px;border-radius:8px;border:0;background:#fff;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex:none}
+.arrow:hover{background:#e7e9ed}
+.arrow-line{border:1px solid #dfe2e6}
+.arrow[disabled]{opacity:.4;cursor:default}
+.track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;list-style:none;margin:0;padding:0}
+.track::-webkit-scrollbar{display:none}
+.track > *{scroll-snap-align:start;flex:none}
+.navlink{color:#18191b;text-decoration:none;font-size:16px;line-height:1.55;white-space:nowrap}.navlink:hover{color:#0161ce}
+.lang{min-height:34px;padding:0 10px;border-radius:8px;border:0;background:transparent;font:400 13px "Inter",sans-serif;color:#5d6470;cursor:pointer}.lang[aria-pressed="true"]{background:#f3f4f6;color:#18191b}
+.ph{display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+.vicon{width:32px;height:32px;flex:none;display:block}
+.sec{padding-top:112px}
+.row{display:flex;gap:16px}
+.col{display:flex;flex-direction:column}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.g4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.slogan-bg{background:#e9eaee url(assets/538408f72622a1eb7a92c26c1cff25bf.jpg) center/cover no-repeat}
+input[type=range]{width:100%;accent-color:#0161ce;height:24px;margin:0}
+.inp{width:100%;min-height:59px;border:1px solid #e3e5e9;border-radius:8px;background:#fff;padding:0 18px;font:400 16px "Inter",sans-serif;color:#18191b}
+.inp::placeholder{color:#8b919c}
+details{border-top:1px solid #e3e5e9}
+details:last-of-type{border-bottom:1px solid #e3e5e9}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:24px 0}
+summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(180deg)}
+.chev{transition:transform .2s ease;flex:none}
+.num{white-space:nowrap}
+.rng{-webkit-appearance:none;appearance:none;width:100%;height:18px;background:transparent;margin:0}
+.rng::-webkit-slider-runnable-track{height:6px;border-radius:3px;background:linear-gradient(#0161ce,#0161ce) 0/var(--p,50%) 100% no-repeat,#e3e5e9}
+.rng::-moz-range-track{height:6px;border-radius:3px;background:#e3e5e9}
+.rng::-moz-range-progress{height:6px;border-radius:3px;background:#0161ce}
+.rng::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:#0161ce;margin-top:-6px;border:0}
+.rng::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#0161ce;border:0}
+.faq-a{color:#18191b;text-decoration:none}.faq-a:hover{color:#0161ce}
+summary .plus{transition:transform .2s ease;flex:none}
+details[open] summary .plus{transform:rotate(45deg)}
+.burger{display:none;width:44px;height:44px;border:0;border-radius:8px;background:#f3f4f6;align-items:center;justify-content:center;cursor:pointer;flex:none}
+.mmenu{display:none}
+.mlink{display:block;padding:14px 0;border-bottom:1px solid #eceef1;color:#18191b;text-decoration:none;font-size:18px;font-weight:500}
+.overlay{position:fixed;inset:0;z-index:50;background:rgba(15,17,20,.55);display:flex;align-items:center;justify-content:center;padding:24px;overflow-y:auto}
+.dialog{position:relative;width:100%;max-width:640px;background:#fff;border-radius:16px;padding:40px;box-shadow:0 24px 80px rgba(0,0,0,.25);margin:auto}
+.xbtn{position:absolute;top:16px;right:16px;width:44px;height:44px;border:0;border-radius:8px;background:#f3f4f6;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.xbtn:hover{background:#e7e9ed}
+.mcta{display:none}
+.chart-s{display:none}
+.cond .vicon{width:24px;height:24px;flex:none;margin-top:1px}
+.todo{background:#fff4d6;color:#6b4b00;border-radius:4px;padding:1px 6px;font-size:.9em}
+.fade{position:absolute;inset:auto 0 0 auto}
+@media (max-width:1100px){
+  .burger{display:inline-flex}
+  .mmenu{display:block;padding:8px 32px 20px;border-top:1px solid #eceef1;background:#fff}
+  .g4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .g3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hide-md{display:none!important}
+  .row.stack{flex-direction:column}
+  .row.stack > *{flex:none!important;width:100%;max-width:100%!important}
+  .row.facts{flex-direction:row;flex-wrap:wrap}
+  .row.facts > .tile{flex:1 1 calc(50% - 8px)!important;width:auto}
+  .what-photo{min-height:0!important;aspect-ratio:4 / 3}
+  .what-img{object-fit:contain!important}
+  .prob-photo{height:420px}
+  .slogan{flex-direction:column;justify-content:flex-start!important;align-items:center!important;text-align:center;min-height:0!important;padding:56px 32px 0!important;background:#f0f1f3!important}
+  .slogan p{font-size:36px;max-width:520px!important;margin:0 auto;padding-bottom:20px;text-wrap:balance}
+  .slogan p br{display:none}
+  .slogan::after{content:"";display:block;width:min(100%,620px);aspect-ratio:1200 / 900;background:url(assets/1e9fda3fe0456e8b89964df7efbaf868.jpg) center bottom / 100% auto no-repeat;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%),linear-gradient(180deg,transparent 0,#000 14%);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent 0,#000 16%,#000 84%,transparent 100%),linear-gradient(180deg,transparent 0,#000 14%);mask-composite:intersect}
+}
+@media (max-width:760px){
+  .wrap{padding:0 16px}
+  .row.stack > *{flex:none!important;width:100%;max-width:100%}
+  .hdr{flex-wrap:nowrap!important}
+  .hdr .btn{min-height:44px;padding:0 16px;font-size:15px}
+  .calc-num{font-size:26px;white-space:normal;text-wrap:balance}
+  .mmenu{padding:8px 16px 20px}
+  .slogan{flex-direction:column;justify-content:flex-start!important;align-items:center!important;text-align:center;min-height:0!important;padding:48px 20px 0!important}
+  .slogan p{font-size:26px;max-width:330px!important;margin:0 auto;padding-bottom:20px;text-wrap:balance}
+  .slogan p br{display:none}
+  .slogan::after{content:"";display:block;width:calc(100% + 40px);margin:0 -20px;aspect-ratio:1200 / 860;background:none;-webkit-mask-image:none;mask-image:none}
+  .what-photo{min-height:0!important;aspect-ratio:1328 / 1568;flex:none!important}
+  .what-img{object-fit:cover!important}
+  .row.facts{flex-direction:column}
+  .row.facts > .tile{flex:none!important;width:100%}
+  .prob-photo{height:auto}
+  .tbl-row{display:grid!important;grid-template-columns:minmax(0,1fr) auto;column-gap:16px!important;row-gap:6px!important;padding:18px 16px!important;align-items:baseline!important}
+  .tbl-row > .col{display:contents}
+  .tbl-row > .col > :first-child{grid-column:1;grid-row:1}
+  .tbl-row > .col > :nth-child(2){grid-column:1 / -1;grid-row:2}
+  .tbl-row > :last-child{grid-column:2;grid-row:1}
+  .tbl-val{font-size:17px!important}
+  .tbl-total{padding:24px 16px!important}
+  .tbl-total .num{font-size:28px}
+  .chart-l{display:none}
+  .chart-s{display:block}
+  .dialog{padding:28px 20px 24px;border-radius:16px}
+  .overlay{padding:12px;align-items:flex-end}
+  .dialog .g2{grid-template-columns:minmax(0,1fr)}
+  .mcta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(255,255,255,.96);border-top:1px solid #eceef1}
+  .page-pad{padding-bottom:72px}
+  .hdr-cta{display:none!important}
+  .doc{min-height:0!important;flex-direction:row!important;align-items:center;justify-content:flex-start!important}
+  .fnav{flex:1 1 40%!important}
+  .footer-top{gap:40px 24px!important}
+  .fnav{flex:1 1 calc(50% - 12px)!important}
+  .fbrand{flex:1 1 100%!important}
+  .overlay .btn{width:100%}
+  .anim{aspect-ratio:16 / 10!important}
+  .steps{row-gap:40px!important}
+  .who-img{left:28%!important;width:72%!important;top:auto!important;bottom:0;height:62%!important;object-position:right bottom!important}
+  .who-card{min-height:240px!important;padding:24px!important}
+  .sec{padding-top:64px}
+  .h1{font-size:34px}
+  .h2{font-size:30px}
+  .h3m{font-size:28px}
+  .num{font-size:32px}
+  .m24{font-size:20px}
+  .lead{font-size:16px}
+  .row.stack{flex-direction:column}
+  .g2,.g3{grid-template-columns:minmax(0,1fr)}
+  .g4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hide-sm{display:none!important}
+  .slogan.slogan-bg{background:#f0f1f3 url(assets/1e9fda3fe0456e8b89964df7efbaf868.jpg) center bottom / 100% auto no-repeat!important}
+  .pad-lg{padding:28px 20px!important}
+  .track > .w380{width:300px!important}
+  .track > .w440{width:300px!important}
+}
+.km-anim{--bg:#0f1215; --panel:#161a1e; --rule:#262c32; --line:#e4e8eb; --dim:#56616b; --text:#e4e8eb; --muted:#8c97a1; --h2:#4fc3f7; --hot:#f07a3a; --soot:#7b6555; --h2rgb:79,195,247; --panelrgb:22,26,30; --part:#12171b; --screen:#080b0d; --lcd:#e4e8eb; --f-display:"Unbounded","Onest",system-ui,sans-serif; --f-body:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif; --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;--f-mono:ui-monospace,Menlo,monospace;position:relative;background:var(--panel)}
+.km-anim .stage-box{position:absolute;inset:0;background:var(--panel);overflow:hidden}
+.km-anim #stage{display:block;width:100%;height:100%}
+/* SVG */
+#stage .ln{fill:none;stroke:var(--line);stroke-width:calc(var(--k,1) * 1.4);stroke-linejoin:round;stroke-linecap:round}
+#stage .ln.thin{stroke-width:calc(var(--k,1) * .9);stroke:var(--dim)}
+#stage .hid{fill:none;stroke:var(--dim);stroke-width:calc(var(--k,1) * 1);stroke-dasharray:calc(var(--k,1)*4) calc(var(--k,1)*4)}
+#stage .ground{stroke:var(--dim);stroke-width:calc(var(--k,1) * 1.2)}
+#stage .road{stroke:var(--rule);stroke-width:calc(var(--k,1) * 2);stroke-dasharray:40 30}
+.drawing .ln:not(.nodraw){stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.8s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+#stage .panel{fill:var(--part);stroke:none}
+#stage .screen{fill:var(--screen);stroke:var(--dim);stroke-width:calc(var(--k,1) * .9)}
+#stage .lcd{font:600 5.6px var(--f-mono);fill:var(--lcd)}
+#stage .lcd.b{fill:var(--h2)}
+#stage .lcd.c{fill:var(--muted)}
+#stage .led{fill:var(--h2)}
+#stage .tube{fill:none;stroke:var(--muted);stroke-width:calc(var(--k,1) * 1.6);opacity:.55;stroke-linecap:round}
+#stage .flow{fill:none;stroke-linecap:round}
+#stage .flow.h2{stroke:var(--h2);stroke-width:calc(var(--k,1) * 2)}
+#stage .flow.wat{stroke:var(--h2);opacity:.6;stroke-width:calc(var(--k,1) * 1.6)}
+#stage .flow.pow{stroke:var(--line);stroke-width:calc(var(--k,1) * 1.2)}
+#stage[data-scene="1"] #h2flow{stroke:url(#h2fade)}
+#stage .spray{fill:none;stroke:var(--line);stroke-width:calc(var(--k,1) * 1);opacity:0}
+.stage-box::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 75% 70% at 50% 50%,rgba(var(--panelrgb),0) 40%,rgba(var(--panelrgb),.55) 75%,rgba(var(--panelrgb),.97) 100%);opacity:.35;transition:opacity .9s}
+.stage-box[data-scene="1"]::after,.stage-box[data-scene="2"]::after{opacity:1}
+.rec{z-index:2}
+#device-shell{transition:stroke .5s, fill .5s}
+#stage[data-scene="0"] #device-shell{stroke:var(--h2);fill:rgba(var(--h2rgb),.12)}
+#stage[data-scene="1"] #device-shell{stroke:var(--dim);fill:rgba(var(--h2rgb),.04)}
+#device-detail,#engine-detail{opacity:0;transition:opacity .6s}
+#stage[data-scene="1"] #device-detail{opacity:1}
+#stage[data-scene="2"] #engine-detail{opacity:1}
+#stage[data-scene="2"] #engine-body{opacity:.25}
+#stage[data-scene="1"] #truck{opacity:.2}
+#engine-body{transition:opacity .6s}
+#truck{transition:opacity .6s}
+#stage[data-scene="2"] #truck{opacity:.08}
+#h2flow,#wire-pulse{fill:none;stroke:var(--h2);stroke-width:calc(var(--k,1) * 1.8);opacity:0;transition:opacity .5s}
+#stage:not([data-scene="0"]) #h2flow{opacity:1}
+#stage[data-scene="1"] #wire-pulse{opacity:1}
+#stage .water{fill:rgba(var(--h2rgb),.16);stroke:none}
+#stage .bub{fill:none;stroke:var(--h2);stroke-width:calc(var(--k,1) * .8)}
+#stage .h2dot{fill:var(--h2)}
+#smoke circle{fill:var(--dim);transition:opacity .8s}
+#stage[data-scene="3"] #smoke{opacity:0}
+#smoke{transition:opacity .8s}
+.carbon{fill:var(--soot);transition:opacity 1.4s}
+#stage.clean .carbon{opacity:0}
+#flame{transition:fill .8s}
+#stage .soot{fill:#3a2e26;transition:opacity .8s}
+#stage.clean .soot{opacity:0}
+/* final scene: device + engine lit, power flows crank → driveshaft → drive wheels */
+#stage[data-scene="3"] #device-shell{stroke:var(--h2);fill:rgba(var(--h2rgb),.14)}
+#engine-body{transition:opacity .6s, stroke .5s, fill .5s}
+#stage[data-scene="3"] #engine-body{stroke:var(--hot);stroke-dasharray:none;fill:rgba(240,122,58,.14)}
+#drive path{fill:none;stroke:var(--hot);stroke-width:calc(var(--k,1) * 2);stroke-linecap:round;opacity:0;transition:opacity .6s}
+#drive .ring{fill:none;stroke:var(--hot);stroke-width:calc(var(--k,1) * 1.6);opacity:0;transition:opacity .6s}
+#stage[data-scene="3"] #drive path{opacity:1}
+#stage[data-scene="3"] #drive .ring{opacity:.9;animation:ringPulse 1.6s ease-in-out infinite}
+@keyframes ringPulse{0%,100%{opacity:.35}50%{opacity:.95}}
+@media (prefers-reduced-motion:reduce){#stage[data-scene="3"] #drive .ring{animation:none}}
+@media (prefers-reduced-motion:reduce){.drawing .ln{animation:none;stroke-dasharray:none;stroke-dashoffset:0}}
+</style>
+
+</head>
+<body>
+
+
+
+
+
+<div id="top" class="page-pad" style="background: #fff">
+
+<!-- Header -->
+<header style="position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid #eceef1">
+<div class="wrap hdr" style="min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; align-items: center; gap: 48px; min-width: 0">
+<a href="#top" aria-label="Crystal Logistics — наверх" style="display: flex"><img src="assets/41db34d2f8ce7ab30699bcc01fe359d2.svg" alt="Crystal Logistics" style="height: 24px; width: auto; display: block"></a>
+<nav aria-label="Основное меню" class="hide-md" style="display: flex; gap: 26px; align-items: center">
+<a class="navlink" href="#how">Как это работает</a>
+<a class="navlink" href="#calc">Выгода</a>
+<a class="navlink" href="#reviews">Отзывы</a>
+<a class="navlink" href="#price">Цена</a>
+<a class="navlink" href="#faq">Вопросы</a>
+</nav>
+</div>
+<div style="display: flex; align-items: center; gap: 12px">
+<div class="hide-sm" role="group" aria-label="Язык сайта" style="display: flex; gap: 2px">
+<button class="lang" type="button" aria-pressed="false">한국어</button>
+<button class="lang" type="button" aria-pressed="true">RU</button>
+<button class="lang" type="button" aria-pressed="false">EN</button>
+</div>
+<a class="navlink small hide-md" href="tel:+820000000000" style="font-size: 15px; font-variant-numeric: tabular-nums">[+82 10-0000-0000]</a>
+<button class="btn btn-dark hdr-cta" type="button" data-ev-click="openLead">Оставить заявку</button>
+<button class="burger" type="button" aria-label="Меню" data-bind-aria-expanded="{{menuExpanded}}" aria-controls="v4menu" data-ev-click="toggleMenu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#18191b" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path data-bind-d="{{burgerPath}}"></path></svg></button>
+</div>
+</div>
+<div data-if="menuOpen" style="display: none">
+<nav id="v4menu" aria-label="Мобильное меню" class="mmenu">
+<a class="mlink" href="#how" data-ev-click="closeMenu">Как это работает</a>
+<a class="mlink" href="#calc" data-ev-click="closeMenu">Выгода</a>
+<a class="mlink" href="#reviews" data-ev-click="closeMenu">Отзывы</a>
+<a class="mlink" href="#price" data-ev-click="closeMenu">Цена</a>
+<a class="mlink" href="#faq" data-ev-click="closeMenu">Вопросы</a>
+<div style="display: flex; gap: 2px; padding-top: 12px"><button class="lang" type="button" aria-pressed="false">한국어</button><button class="lang" type="button" aria-pressed="true">RU</button><button class="lang" type="button" aria-pressed="false">EN</button></div>
+<a class="mlink" href="tel:+820000000000" style="font-variant-numeric: tabular-nums">[+82 10-0000-0000]</a>
+</nav>
+</div>
+</header>
+
+<!-- Hero -->
+<section class="wrap" style="padding-top: 32px; padding-bottom: 16px; display: flex; flex-direction: column; gap: 16px">
+<div class="row stack" style="align-items: flex-start">
+<div class="col" style="flex: 1 1 0; min-width: 0; gap: 18px; padding: 24px 32px 0 0">
+<p class="lead c2">Водородная система оптимизации ДВС</p>
+<h1 class="h1"><span style="color: #0161ce">Снизьте расходы<br>на топливо до 20%</span><br>и продлите ресурс двигателя в 2 раза</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 18px">
+<span class="pill">Гарантия 1 год</span>
+<span class="pill">Установка за 2 часа</span>
+<span class="pill pill-blue">Официальный дистрибьютор KMPTY</span>
+</div>
+</div>
+<div style="flex: 0 1 664px; width: 100%; aspect-ratio: 664 / 520; border-radius: 12px; overflow: hidden; background: #e7e9ed">
+<img src="assets/e4e0abc4b039c3290936cb0af1b4a419.jpg" alt="Водородная установка KM-CT4 рядом с грузовиком" style="width: 100%; height: 100%; object-fit: cover; display: block">
+</div>
+</div>
+<div class="row stack facts">
+<div class="tile" style="flex: 1 1 0; min-width: 0; min-height: 240px; padding: 32px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px">
+<svg viewBox="0 0 30 30" width="30" height="30" fill="none" stroke="#18191b" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22l7-7 5 4 10-10"></path><path d="M19 9h7v7"></path></svg>
+<div class="col" style="gap: 10px"><p class="title">Увеличивает мощность двигателя на 15-20%</p><p class="small c2">Увереннее тянет с грузом и в подъём</p></div>
+</div>
+<div class="tile" style="flex: 1 1 0; min-width: 0; min-height: 240px; padding: 32px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px">
+<svg viewBox="0 0 30 30" width="30" height="30" fill="none" stroke="#18191b" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 4c4 5 7.5 9 7.5 13a7.5 7.5 0 0 1-15 0C7.5 13 11 9 15 4z"></path></svg>
+<div class="col" style="gap: 10px"><p class="title">Очищает поршни и форсунки</p><p class="small c2">Защищает DPF от засорения и очищает забитый фильтр</p></div>
+</div>
+<div style="flex: 0 1 664px; min-width: 0; background: #0161ce; border-radius: 12px; overflow: hidden; display: flex; position: relative; min-height: 240px">
+<div class="col" style="flex: 1 1 auto; padding: 28px; justify-content: space-between; gap: 20px; position: relative; z-index: 1; max-width: 480px">
+<div class="col" style="gap: 14px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px"><p class="cw" style="font-size: 22px; line-height: 1.2; font-weight: 500">Установка бесплатно</p><span class="cap cw" style="background: rgba(255,255,255,.18); border-radius: 999px; padding: 7px 14px">Акция до 30 ноября</span></div>
+<p class="body" style="color: #d9e7fb">Оперативный выезд мастеров без необходимости доставлять технику в сервис.</p>
+</div>
+<button class="btn btn-dark" type="button" data-ev-click="openInstall" style="align-self: flex-start">Записаться на установку</button>
+</div>
+<img class="hide-sm" src="assets/2f0ac0accbac451e862417497914fe98.webp" alt="" aria-hidden="true" style="position: absolute; right: 0; bottom: 0; height: 100%; max-height: 232px; width: auto; display: block">
+</div>
+</div>
+</section>
+
+<!-- Problem -->
+<section class="wrap" style="padding-top: 96px">
+<div class="row stack" style="background: #18191b; border-radius: 12px; overflow: hidden; gap: 0">
+<div class="prob-photo" style="flex: 0 0 520px; max-width: 100%; min-height: 300px; background: #111">
+<img src="assets/2f31567373bfb9c034baba8a937677f0.jpg" alt="Блок цилиндров с нагаром" style="width: 100%; height: 100%; object-fit: cover; display: block">
+</div>
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; padding: 56px; gap: 16px">
+<h2 class="h2 cw">Знакомые проблемы?</h2>
+<div class="g2" style="padding-top: 48px; row-gap: 32px; column-gap: 32px">
+<div class="col" style="gap: 40px; padding-top: 22px; border-top: 1px solid #3a3d42"><p class="cap" style="color: #6f747d; font-weight: 500">01</p><div class="col" style="gap: 10px"><p class="m18 cw">Топливо съедает прибыль</p><p class="small cg">Дизель дорожает, а грузовик проходит сотни километров в день. Расход — одна из главных статей затрат.</p></div></div>
+<div class="col" style="gap: 40px; padding-top: 22px; border-top: 1px solid #3a3d42"><p class="cap" style="color: #6f747d; font-weight: 500">02</p><div class="col" style="gap: 10px"><p class="m18 cw">Сажевый фильтр забивается</p><p class="small cg">Регенерации, ошибки, сервис, простой. Каждый визит в сервис — это деньги и потерянные рейсы.</p></div></div>
+<div class="col" style="gap: 40px; padding-top: 22px; border-top: 1px solid #3a3d42"><p class="cap" style="color: #6f747d; font-weight: 500">03</p><div class="col" style="gap: 10px"><p class="m18 cw">Двигатель теряет тягу</p><p class="small cg">Нагар на форсунках и клапанах: машина хуже тянет в гору и с полной загрузкой, а расход растёт.</p></div></div>
+<div class="col" style="gap: 40px; padding-top: 22px; border-top: 1px solid #3a3d42"><p class="cap" style="color: #6f747d; font-weight: 500">04</p><div class="col" style="gap: 10px"><p class="m18 cw">Ремонт двигателя дорогой</p><p class="small cg">Чем больше нагара, тем быстрее изнашиваются поршни и форсунки — и капремонт приходит раньше.</p></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Benefits -->
+<section id="benefits" class="wrap sec" style="padding-bottom: 112px; display: flex; flex-direction: column; gap: 48px">
+<h2 class="h2">Что делает водородная система</h2>
+<div class="g3">
+<div class="tile col" style="padding: 32px; gap: 12px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><p class="title" style="margin-top: 8px">Экономия топлива до 20%</p><p class="small c2">Часть дизеля в цилиндре не догорает: уходит в выхлоп сажей или догорает уже в выпускном коллекторе, не совершая полезной работы. Водород поджигает смесь быстрее и равномернее, и топливо сгорает там, где должно, — в цилиндре. На тот же маршрут нужно меньше топлива: разницу видно по заправкам уже в первый месяц.</p></div>
+<div class="tile col" style="padding: 32px; gap: 12px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><p class="title" style="margin-top: 8px">Мощность +15–20%</p><p class="small c2">Когда топливо сгорает полностью, в каждом такте двигатель получает больше энергии. Грузовик увереннее тянет с полной загрузкой и в подъём, реже приходится переходить на пониженную передачу.</p></div>
+<div class="tile col" style="padding: 32px; gap: 12px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><p class="title" style="margin-top: 8px">Двигатель без нагара</p><p class="small c2">Нагар копится на поршнях, клапанах и в канавках колец, а на соплах форсунок искажает факел распыла. Кольца теряют подвижность и хуже держат компрессию. С водородом новый нагар почти не образуется, а старый постепенно выгорает: форсунки распыляют ровнее, кольца снова работают как надо.</p></div>
+<div class="tile col" style="padding: 32px; gap: 12px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><p class="title" style="margin-top: 8px">Меньше расход масла</p><p class="small c2">Когда кольца не закоксованы, они лучше снимают масло со стенок цилиндров — меньше его сгорает. А раз сажи образуется меньше, меньше её попадает в масло, и оно дольше сохраняет свойства.</p></div>
+<div class="tile col" style="padding: 32px; gap: 12px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><p class="title" style="margin-top: 8px">Чистый сажевый фильтр</p><p class="small c2">Меньше сажи в выхлопе — меньше её оседает в DPF. Фильтр реже уходит на регенерацию, реже нужны чистка и замена, а уже забитый постепенно очищается. По данным производителя, снижается и расход мочевины (요소수).</p></div>
+<div class="tile col" style="padding: 32px; gap: 12px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><p class="title" style="margin-top: 8px">Чище выхлоп</p><p class="small c2">Топливо сгорает полностью, поэтому в выхлопе меньше сажи и несгоревших остатков. Разницу показывает замер дымности, который мы делаем до установки и через месяц после.</p></div>
+</div>
+</section>
+
+<!-- Before / After -->
+<section id="before-after" class="wrap" style="padding-bottom: 112px">
+<div class="col pad-lg" style="background: #18191b; border-radius: 12px; padding: 56px; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px">
+<h2 class="cw" style="font-size: clamp(34px, 5vw, 64px); line-height: 1.15; font-weight: 500; letter-spacing: -0.02em">До и после установки</h2>
+<div style="display: flex; gap: 8px">
+<button class="arrow" type="button" aria-label="Назад" data-ev-click="baPrev" data-bind-style="opacity: {{baPrevOp}}"><svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.5 4l-6 6 6 6"></path></svg></button>
+<button class="arrow" type="button" aria-label="Вперёд" data-ev-click="baNext"><svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4l6 6-6 6"></path></svg></button>
+</div>
+</div>
+<div class="track" data-ref="baTrack" data-ev-scroll="baScroll" style="padding-top: 32px">
+<figure class="w380" style="width: 380px; margin: 0; display: flex; flex-direction: column; gap: 16px"><div style="display: flex; gap: 4px; height: 320px; border-radius: 8px; overflow: hidden"><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/06a46cdb65bf3780961cd3e6aa0ea5bb.jpg" alt="Поршень до установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #fff; color: #18191b; border-radius: 999px; padding: 5px 10px">До</span></div><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/420e2cc61986b0ab12c72dae4b642121.jpg" alt="Поршень после установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #0161ce; color: #fff; border-radius: 999px; padding: 5px 10px">После</span></div></div><figcaption class="col" style="gap: 16px"><span class="m18 cw">Поршень</span><span class="small cg">Hyundai Xcient · 3 месяца, 38 000 км</span></figcaption></figure>
+<figure class="w380" style="width: 380px; margin: 0; display: flex; flex-direction: column; gap: 16px"><div style="display: flex; gap: 4px; height: 320px; border-radius: 8px; overflow: hidden"><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/07135144fa2697b8ea41bfbf2ec88508.jpg" alt="Форсунка до установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #fff; color: #18191b; border-radius: 999px; padding: 5px 10px">До</span></div><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/62af0f6a33e06537bd48fc3319bce47d.jpg" alt="Форсунка после установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #0161ce; color: #fff; border-radius: 999px; padding: 5px 10px">После</span></div></div><figcaption class="col" style="gap: 16px"><span class="m18 cw">Форсунка</span><span class="small cg">Volvo FH 460 · 4 месяца, 52 000 км</span></figcaption></figure>
+<figure class="w380" style="width: 380px; margin: 0; display: flex; flex-direction: column; gap: 16px"><div style="display: flex; gap: 4px; height: 320px; border-radius: 8px; overflow: hidden"><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/b3f2780362f7cb023a35ada5f47238f6.jpg" alt="Сажевый фильтр (DPF) до установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #fff; color: #18191b; border-radius: 999px; padding: 5px 10px">До</span></div><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/b797815cdf97f128ec4a0eeb7abb3c33.jpg" alt="Сажевый фильтр (DPF) после установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #0161ce; color: #fff; border-radius: 999px; padding: 5px 10px">После</span></div></div><figcaption class="col" style="gap: 16px"><span class="m18 cw">Сажевый фильтр (DPF)</span><span class="small cg">Scania R450 · 6 месяцев, 61 000 км</span></figcaption></figure>
+<figure class="w380" style="width: 380px; margin: 0; display: flex; flex-direction: column; gap: 16px"><div style="display: flex; gap: 4px; height: 320px; border-radius: 8px; overflow: hidden"><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/fa8d44973d44c87cb1cacf8f829d8e61.jpg" alt="Впускной клапан до установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #fff; color: #18191b; border-radius: 999px; padding: 5px 10px">До</span></div><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/a5b769ad0d278a9f2061cf1df50b5030.jpg" alt="Впускной клапан после установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #0161ce; color: #fff; border-radius: 999px; padding: 5px 10px">После</span></div></div><figcaption class="col" style="gap: 16px"><span class="m18 cw">Впускной клапан</span><span class="small cg">Tata Daewoo Maxen · 5 месяцев, 47 000 км</span></figcaption></figure>
+<figure class="w380" style="width: 380px; margin: 0; display: flex; flex-direction: column; gap: 16px"><div style="display: flex; gap: 4px; height: 320px; border-radius: 8px; overflow: hidden"><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/a507c60da755a56fee31734f74ca41f9.jpg" alt="Клапан EGR до установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #fff; color: #18191b; border-radius: 999px; padding: 5px 10px">До</span></div><div style="flex: 1 1 0; position: relative; min-width: 0"><img src="assets/ff46eef94da4df9afd780791f240cd4f.jpg" alt="Клапан EGR после установки" style="width: 100%; height: 100%; object-fit: cover; display: block"><span class="cap" style="position: absolute; left: 16px; top: 16px; background: #0161ce; color: #fff; border-radius: 999px; padding: 5px 10px">После</span></div></div><figcaption class="col" style="gap: 16px"><span class="m18 cw">Клапан EGR</span><span class="small cg">Mercedes Actros · 4 месяца, 44 000 км</span></figcaption></figure>
+</div>
+<p class="cap cg">Изображения сгенерированы ИИ, данные под фото — пример заполнения. Носят ознакомительный характер.</p>
+</div>
+</section>
+
+<!-- How it works -->
+<section id="how" style="background: #f3f4f6; padding: 112px 0">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px">
+<h2 class="h2">Как это работает</h2>
+<div class="anim km-anim" data-ref="animRef" role="img" aria-label="Анимация: прибор KM-CT4 под кабиной делает водород из воды, водород идёт во впуск двигателя, топливо сгорает полнее, энергия через коленвал уходит в колёса" style="border-radius: 12px; overflow: hidden; aspect-ratio: 1376 / 400"></div>
+<ol class="pad-lg steps" style="list-style: none; margin: 0; background: #fff; border-radius: 12px; padding: 32px; display: flex; flex-wrap: wrap; gap: 0">
+<li style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><img src="assets/99a367bb64bbb205f596c629916e9438.jpg" alt="" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; display: block; margin-bottom: 8px"><span class="cap c3">01</span><p class="title">Генерация в реальном времени</p><p class="small c2">Система PEM-электролиза расщепляет обычную дистиллированную воду и мгновенно вырабатывает высокочистый водород (99,9%). Газ подаётся сразу в двигатель — в автомобиле нет опасных баллонов под давлением, водород не хранится, а производится строго во время движения.</p></li>
+<li class="hide-md" aria-hidden="true" style="flex: 0 0 96px; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 72px 4px 0"><span class="cap" style="color: #0161ce; text-align: center">H₂ 99,9%</span><svg viewBox="0 0 80 11" width="80" height="11" fill="none" stroke="#0161ce" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 5.5h71" stroke-dasharray="3 3"></path><path d="M71 2l4.5 3.5L71 9"></path></svg></li>
+<li style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><img src="assets/da86df69bfccb27d19ccfd6da340b30b.jpg" alt="" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; display: block; margin-bottom: 8px"><span class="cap c3">02</span><p class="title">Подача в двигатель</p><p class="small c2">Через воздушный фильтр водород поступает в систему впуска, смешивается с основным топливом (дизелем или бензином) и воздухом, а затем направляется прямо в цилиндры двигателя.</p></li>
+<li class="hide-md" aria-hidden="true" style="flex: 0 0 96px; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 72px 4px 0"><span class="cap" style="color: #0161ce; text-align: center">H₂ + воздух + дизель</span><svg viewBox="0 0 80 11" width="80" height="11" fill="none" stroke="#0161ce" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 5.5h71" stroke-dasharray="3 3"></path><path d="M71 2l4.5 3.5L71 9"></path></svg></li>
+<li style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><img src="assets/2d0a0a443b36bb5623b88a334b7d71bf.jpg" alt="" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; display: block; margin-bottom: 8px"><span class="cap c3">03</span><p class="title">Полное сгорание</p><p class="small c2">Водород воспламеняется в разы быстрее обычного топлива. Он ускоряет сгорание топливно-воздушной смеси, и дизель или бензин сгорают полностью, без остатка. Отсюда больше тяги и меньше расход.</p></li>
+<li class="hide-md" aria-hidden="true" style="flex: 0 0 96px; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 72px 4px 0"><span class="cap" style="color: #0161ce; text-align: center">полное сгорание</span><svg viewBox="0 0 80 11" width="80" height="11" fill="none" stroke="#0161ce" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 5.5h71" stroke-dasharray="3 3"></path><path d="M71 2l4.5 3.5L71 9"></path></svg></li>
+<li style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 12px"><img src="assets/e21721d12300b1d71786e22c303398b0.jpg" alt="" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; display: block; margin-bottom: 8px"><span class="cap c3">04</span><p class="title">Очистка двигателя</p><p class="small c2">Выхлоп становится чище, а сажевый фильтр (DPF) перестаёт забиваться. Высокая температура сгорания запускает «мягкую регенерацию»: старый нагар постепенно выгорает с поршней, форсунок и клапанов.</p></li>
+</ol>
+</div>
+</section>
+
+<!-- Slogan -->
+<section class="wrap sec">
+<div class="slogan-bg slogan" style="border-radius: 12px; min-height: 640px; display: flex; align-items: center; padding: 64px">
+<p class="h2" style="max-width: 448px">Дайте мотору чистую силу — <br>он отплатит вам <br>экономией <br>и долголетием</p>
+</div>
+</section>
+
+<!-- Fuel price -->
+<section class="wrap sec">
+<div class="row stack">
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; background: #f3f4f6; border-radius: 12px; padding: 40px; gap: 24px; justify-content: space-between">
+<div class="col" style="gap: 6px"><p class="title">Средняя цена литра дизеля в Корее</p><p class="small c2">2016–2026, вон за литр, еженедельно</p></div>
+<div class="chart-l"><svg viewBox="0 0 600 396" width="100%" role="img" aria-label="График средней цены дизеля в Корее с 2016 по 2026 год: минимум 1 060 вон в 2020, рекорд 2 168 вон в июне 2022, 2 000 вон весной 2026, сейчас 1 842 вон" style="display: block; overflow: visible; font-family: inherit"><line x1="48" x2="600" y1="79.2" y2="79.2" stroke="#dfe2e6" stroke-width="1"></line><text x="40" y="83.2" text-anchor="end" font-size="13" fill="#8b919c">2 000</text><line x1="48" x2="600" y1="217.6" y2="217.6" stroke="#dfe2e6" stroke-width="1"></line><text x="40" y="221.6" text-anchor="end" font-size="13" fill="#8b919c">1 500</text><line x1="48" x2="600" y1="356.0" y2="356.0" stroke="#dfe2e6" stroke-width="1"></line><text x="40" y="360.0" text-anchor="end" font-size="13" fill="#8b919c">1 000</text><text x="54.3" y="382.0" text-anchor="middle" font-size="13" fill="#8b919c">2017</text><text x="165.1" y="382.0" text-anchor="middle" font-size="13" fill="#8b919c">2019</text><text x="276.3" y="382.0" text-anchor="middle" font-size="13" fill="#8b919c">2021</text><text x="387.1" y="382.0" text-anchor="middle" font-size="13" fill="#8b919c">2023</text><text x="498.2" y="382.0" text-anchor="middle" font-size="13" fill="#8b919c">2025</text><path d="M48.0 292.3 L50.8 288.6 L53.5 281.3 L55.4 271.3 L58.1 269.5 L60.9 269.5 L62.7 271.3 L65.5 274.1 L68.2 276.8 L71.0 278.6 L73.8 278.6 L75.6 281.3 L78.4 283.2 L81.1 288.6 L83.9 290.4 L86.6 290.4 L88.5 285.9 L91.2 283.2 L94.0 277.7 L96.8 274.1 L99.5 271.3 L101.4 269.5 L104.1 264.9 L106.9 262.2 L109.6 262.2 L111.5 259.5 L114.2 254.9 L117.0 254.9 L119.8 254.9 L121.6 257.7 L124.4 257.7 L127.1 257.7 L129.9 251.3 L132.6 243.1 L134.5 241.3 L137.2 241.3 L140.0 241.3 L142.8 238.5 L144.6 238.5 L147.4 235.8 L150.1 229.4 L152.9 220.3 L154.7 217.6 L157.5 241.3 L160.2 249.5 L163.0 264.9 L165.8 283.2 L167.6 287.7 L170.4 287.7 L173.1 287.7 L175.9 283.2 L178.6 274.1 L180.5 267.7 L183.2 257.7 L186.0 245.8 L188.8 245.8 L190.6 253.1 L193.4 257.7 L196.1 257.7 L198.9 257.7 L200.7 256.8 L203.5 250.4 L206.2 245.8 L209.0 248.6 L211.8 248.6 L213.6 248.6 L216.4 250.4 L219.1 248.6 L221.9 245.8 L223.7 243.1 L226.5 245.8 L229.2 257.7 L232.0 266.8 L233.8 294.1 L236.6 315.0 L239.4 330.5 L242.1 339.6 L244.9 331.4 L246.7 315.9 L249.5 308.7 L252.2 308.7 L255.0 308.7 L257.8 308.7 L259.6 311.4 L262.4 315.9 L265.1 318.7 L267.9 320.5 L270.6 323.2 L272.5 318.7 L275.2 303.2 L278.0 290.4 L279.8 285.9 L282.6 283.2 L285.4 277.7 L288.1 267.7 L290.9 262.2 L292.7 262.2 L295.5 262.2 L298.2 261.3 L301.0 254.9 L303.8 248.6 L305.6 236.7 L308.4 234.0 L311.1 232.2 L313.0 234.0 L315.7 234.0 L318.5 230.3 L321.2 209.4 L324.0 189.4 L325.8 206.7 L328.6 220.3 L331.4 232.2 L334.1 234.0 L336.9 222.2 L338.7 206.7 L341.5 188.5 L344.2 101.1 L347.0 102.9 L349.8 104.7 L351.6 94.7 L354.4 77.4 L357.1 57.3 L359.9 36.4 L361.7 51.0 L364.5 76.5 L367.2 112.0 L370.0 119.3 L371.8 117.4 L374.6 127.5 L377.4 117.4 L380.1 110.2 L382.9 116.5 L384.7 132.9 L387.5 154.8 L390.2 170.3 L393.0 175.7 L394.8 191.2 L397.6 201.2 L400.4 208.5 L403.1 206.7 L405.0 204.9 L407.7 223.1 L410.5 238.5 L413.2 246.7 L416.0 250.4 L417.8 245.8 L420.6 212.1 L423.4 184.8 L426.1 178.4 L428.9 162.1 L430.7 162.1 L433.5 170.3 L436.2 179.4 L439.0 198.5 L440.8 212.1 L443.6 217.6 L446.4 224.9 L449.1 215.8 L451.0 207.6 L453.7 205.8 L456.5 205.8 L459.2 199.4 L462.0 199.4 L463.8 205.8 L466.6 217.6 L469.4 222.2 L472.1 207.6 L474.0 201.2 L476.7 204.9 L479.5 212.1 L482.2 224.9 L484.1 238.5 L486.8 238.5 L489.6 234.0 L492.4 224.9 L495.1 222.2 L497.0 215.8 L499.7 206.7 L502.5 191.2 L505.2 189.4 L508.0 192.1 L509.8 203.0 L512.6 208.5 L515.4 214.0 L518.1 215.8 L520.9 215.8 L522.7 220.3 L525.5 210.3 L528.2 208.5 L530.1 205.8 L532.8 205.8 L535.6 208.5 L538.4 208.5 L541.1 207.6 L543.0 205.8 L545.7 195.7 L548.5 172.1 L551.2 171.2 L554.0 178.4 L555.8 186.6 L558.6 192.1 L561.4 192.1 L563.2 162.1 L566.0 127.5 L568.7 92.9 L571.5 77.4 L574.2 75.6 L576.1 77.4 L578.8 77.4 L581.6 92.9 L584.4 117.4 L587.1 119.3 L589.0 119.3 L591.7 122.0 L594.5 122.0 L597.2 122.0 L600.0 122.0" fill="none" stroke="#0161ce" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><circle cx="359.5" cy="36.6" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><circle cx="242.0" cy="339.4" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><circle cx="574.1" cy="75.2" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><circle cx="600.0" cy="122.0" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><text x="371.5" y="41.6" text-anchor="start" font-size="15" font-weight="500" fill="#18191b">2 168 ₩ — рекорд, июнь 2022</text><text x="230.0" y="344.4" text-anchor="end" font-size="15" font-weight="500" fill="#18191b">1 060 ₩ — 2020</text><text x="560.1" y="66.2" text-anchor="end" font-size="15" font-weight="500" fill="#18191b">2 000 ₩ — весна 2026</text><text x="600.0" y="148.0" text-anchor="end" font-size="15" font-weight="500" fill="#18191b">1 842 ₩ — сейчас</text></svg></div><div class="chart-s"><svg viewBox="0 0 600 396" width="100%" role="img" aria-label="График средней цены дизеля в Корее с 2016 по 2026 год: минимум 1 060 вон в 2020, рекорд 2 168 вон в июне 2022, 2 000 вон весной 2026, сейчас 1 842 вон" style="display: block; overflow: visible; font-family: inherit"><line x1="48" x2="600" y1="79.2" y2="79.2" stroke="#dfe2e6" stroke-width="1"></line><text x="38" y="83.2" text-anchor="end" font-size="24" fill="#8b919c">2 000</text><line x1="48" x2="600" y1="217.6" y2="217.6" stroke="#dfe2e6" stroke-width="1"></line><text x="38" y="221.6" text-anchor="end" font-size="24" fill="#8b919c">1 500</text><line x1="48" x2="600" y1="356.0" y2="356.0" stroke="#dfe2e6" stroke-width="1"></line><text x="38" y="360.0" text-anchor="end" font-size="24" fill="#8b919c">1 000</text><text x="54.3" y="382.0" text-anchor="middle" font-size="24" fill="#8b919c">2017</text><text x="165.1" y="382.0" text-anchor="middle" font-size="24" fill="#8b919c">2019</text><text x="276.3" y="382.0" text-anchor="middle" font-size="24" fill="#8b919c">2021</text><text x="387.1" y="382.0" text-anchor="middle" font-size="24" fill="#8b919c">2023</text><text x="498.2" y="382.0" text-anchor="middle" font-size="24" fill="#8b919c">2025</text><path d="M48.0 292.3 L50.8 288.6 L53.5 281.3 L55.4 271.3 L58.1 269.5 L60.9 269.5 L62.7 271.3 L65.5 274.1 L68.2 276.8 L71.0 278.6 L73.8 278.6 L75.6 281.3 L78.4 283.2 L81.1 288.6 L83.9 290.4 L86.6 290.4 L88.5 285.9 L91.2 283.2 L94.0 277.7 L96.8 274.1 L99.5 271.3 L101.4 269.5 L104.1 264.9 L106.9 262.2 L109.6 262.2 L111.5 259.5 L114.2 254.9 L117.0 254.9 L119.8 254.9 L121.6 257.7 L124.4 257.7 L127.1 257.7 L129.9 251.3 L132.6 243.1 L134.5 241.3 L137.2 241.3 L140.0 241.3 L142.8 238.5 L144.6 238.5 L147.4 235.8 L150.1 229.4 L152.9 220.3 L154.7 217.6 L157.5 241.3 L160.2 249.5 L163.0 264.9 L165.8 283.2 L167.6 287.7 L170.4 287.7 L173.1 287.7 L175.9 283.2 L178.6 274.1 L180.5 267.7 L183.2 257.7 L186.0 245.8 L188.8 245.8 L190.6 253.1 L193.4 257.7 L196.1 257.7 L198.9 257.7 L200.7 256.8 L203.5 250.4 L206.2 245.8 L209.0 248.6 L211.8 248.6 L213.6 248.6 L216.4 250.4 L219.1 248.6 L221.9 245.8 L223.7 243.1 L226.5 245.8 L229.2 257.7 L232.0 266.8 L233.8 294.1 L236.6 315.0 L239.4 330.5 L242.1 339.6 L244.9 331.4 L246.7 315.9 L249.5 308.7 L252.2 308.7 L255.0 308.7 L257.8 308.7 L259.6 311.4 L262.4 315.9 L265.1 318.7 L267.9 320.5 L270.6 323.2 L272.5 318.7 L275.2 303.2 L278.0 290.4 L279.8 285.9 L282.6 283.2 L285.4 277.7 L288.1 267.7 L290.9 262.2 L292.7 262.2 L295.5 262.2 L298.2 261.3 L301.0 254.9 L303.8 248.6 L305.6 236.7 L308.4 234.0 L311.1 232.2 L313.0 234.0 L315.7 234.0 L318.5 230.3 L321.2 209.4 L324.0 189.4 L325.8 206.7 L328.6 220.3 L331.4 232.2 L334.1 234.0 L336.9 222.2 L338.7 206.7 L341.5 188.5 L344.2 101.1 L347.0 102.9 L349.8 104.7 L351.6 94.7 L354.4 77.4 L357.1 57.3 L359.9 36.4 L361.7 51.0 L364.5 76.5 L367.2 112.0 L370.0 119.3 L371.8 117.4 L374.6 127.5 L377.4 117.4 L380.1 110.2 L382.9 116.5 L384.7 132.9 L387.5 154.8 L390.2 170.3 L393.0 175.7 L394.8 191.2 L397.6 201.2 L400.4 208.5 L403.1 206.7 L405.0 204.9 L407.7 223.1 L410.5 238.5 L413.2 246.7 L416.0 250.4 L417.8 245.8 L420.6 212.1 L423.4 184.8 L426.1 178.4 L428.9 162.1 L430.7 162.1 L433.5 170.3 L436.2 179.4 L439.0 198.5 L440.8 212.1 L443.6 217.6 L446.4 224.9 L449.1 215.8 L451.0 207.6 L453.7 205.8 L456.5 205.8 L459.2 199.4 L462.0 199.4 L463.8 205.8 L466.6 217.6 L469.4 222.2 L472.1 207.6 L474.0 201.2 L476.7 204.9 L479.5 212.1 L482.2 224.9 L484.1 238.5 L486.8 238.5 L489.6 234.0 L492.4 224.9 L495.1 222.2 L497.0 215.8 L499.7 206.7 L502.5 191.2 L505.2 189.4 L508.0 192.1 L509.8 203.0 L512.6 208.5 L515.4 214.0 L518.1 215.8 L520.9 215.8 L522.7 220.3 L525.5 210.3 L528.2 208.5 L530.1 205.8 L532.8 205.8 L535.6 208.5 L538.4 208.5 L541.1 207.6 L543.0 205.8 L545.7 195.7 L548.5 172.1 L551.2 171.2 L554.0 178.4 L555.8 186.6 L558.6 192.1 L561.4 192.1 L563.2 162.1 L566.0 127.5 L568.7 92.9 L571.5 77.4 L574.2 75.6 L576.1 77.4 L578.8 77.4 L581.6 92.9 L584.4 117.4 L587.1 119.3 L589.0 119.3 L591.7 122.0 L594.5 122.0 L597.2 122.0 L600.0 122.0" fill="none" stroke="#0161ce" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><circle cx="359.5" cy="36.6" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><circle cx="242.0" cy="339.4" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><circle cx="574.1" cy="75.2" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><circle cx="600.0" cy="122.0" r="5" fill="#0161ce" stroke="#f3f4f6" stroke-width="2"></circle><text x="371.5" y="41.6" text-anchor="start" font-size="26" font-weight="500" fill="#18191b">2 168 ₩ · 2022</text><text x="230.0" y="344.4" text-anchor="end" font-size="26" font-weight="500" fill="#18191b">1 060 ₩ · 2020</text><text x="600.0" y="148.0" text-anchor="end" font-size="26" font-weight="500" fill="#18191b">1 842 ₩ сейчас</text></svg></div>
+</div>
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; background: #18191b; border-radius: 12px; padding: 56px; gap: 32px; justify-content: center">
+<div class="col" style="gap: 20px; align-items: flex-start">
+<span class="pill pill-blue">Цены на дизель</span>
+<h2 class="h2 cw">На цену дизеля вы не влияете. Продолжите переплачивать или начнёте экономить?</h2>
+<p class="lead cg">За последние пять лет литр дизеля стоил то 1 060, то 2 168 вон. Угадать цену нельзя, а сократить расход — можно: KM-CT4 помогает топливу сгореть полнее, и на тот же маршрут его уходит меньше.</p>
+</div>
+<p class="cap c3">Средняя цена по стране, данные Opinet (KNOC) на 1 ноября 2026.</p>
+</div>
+</div>
+</section>
+
+<!-- Calculator -->
+<section id="calc" class="wrap sec">
+<div class="row stack" style="background: #0161ce; border-radius: 12px; padding: 16px">
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; background: #fff; border-radius: 8px; padding: 48px 56px; gap: 16px">
+<h2 class="h3m">Сколько вы сэкономите</h2>
+<p class="body c2">Подставьте свой пробег и расход — посчитаем экономию в месяц при 10 и 20%.</p>
+<div class="col" style="gap: 12px; padding-top: 16px"><label for="v4km" class="small">Пробег в день: <b style="font-weight: 600; font-variant-numeric: tabular-nums"><span data-text="{{km}} км"></span></b></label><input id="v4km" class="rng" type="range" min="100" max="900" step="10" data-bind-value="{{km}}" data-ev-input="setKm" data-bind-style="--p: {{kmPct}}"></div>
+<div class="col" style="gap: 12px; padding-top: 16px"><label for="v4cons" class="small">Расход топлива: <b style="font-weight: 600; font-variant-numeric: tabular-nums"><span data-text="{{consLabel}} л/100 км"></span></b></label><input id="v4cons" class="rng" type="range" min="10" max="45" step="1" data-bind-value="{{cons}}" data-ev-input="setCons" data-bind-style="--p: {{consPct}}"></div>
+<div class="col" style="gap: 8px; padding-top: 16px"><label for="v4price" class="small c2">Цена дизеля, вон за литр</label><input id="v4price" class="inp" type="text" inputmode="numeric" data-bind-value="{{price}}" data-ev-change="setPrice"><p class="cap c2">По умолчанию 1 842 вон — средняя по стране на 1 ноября 2026 (Opinet) <span class="todo">обновлять перед запуском</span></p></div>
+</div>
+<div class="col pad-lg" style="flex: 0 0 520px; min-width: 0; padding: 40px 32px; gap: 32px; justify-content: center">
+<div class="col" style="gap: 12px">
+<div class="col" style="background: rgba(255,255,255,.12); border-radius: 12px; padding: 24px 28px; gap: 8px"><p class="small" style="color: #cfe0f8">Экономия в месяц</p><p class="num cw calc-num"><span data-text="{{saveRange}}&nbsp;₩"></span></p></div>
+<div class="col" style="background: rgba(255,255,255,.12); border-radius: 12px; padding: 24px 28px; gap: 8px"><p class="small" style="color: #cfe0f8">Окупаемость</p><p class="num cw calc-num"><span data-text="{{payback}}"></span></p></div>
+</div>
+<button class="btn btn-dark" type="button" data-ev-click="openInstall" style="width: 100%">Записаться на установку</button>
+<p class="cap" style="color: #cfe0f8">Экономия 10–20% — по данным производителя KMPTY.</p>
+</div>
+</div>
+</section>
+
+<!-- What is it -->
+<section id="what" class="wrap sec">
+<div class="row stack" style="background: #18191b; border-radius: 12px; padding: 16px">
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; padding: 48px 40px 48px 48px; gap: 32px">
+<div class="col" style="gap: 20px"><h2 class="h2 cw">Водородная система<br>KM‑CT4</h2><p class="lead cg">Интеллектуальная автономная система оптимизации ДВС. Она добавляет к воздуху на впуске немного водорода — и двигатель работает эффективнее.</p></div>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px">
+<li style="display: flex; gap: 14px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 4px"><p class="title cw">Водород из воды, прямо в дороге</p><p class="small cg">Баллона нет, хранить и заправлять водород не нужно.</p></div></li>
+<li style="display: flex; gap: 14px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 4px"><p class="title cw">Работает сам</p><p class="small cg">Питается от аккумулятора и включается только при заведённом двигателе — на стоянке аккумулятор не сажает.</p></div></li>
+<li style="display: flex; gap: 14px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 4px"><p class="title cw">Двигатель не трогаем</p><p class="small cg">Водород подаётся во впуск через воздушный фильтр.</p></div></li>
+<li style="display: flex; gap: 14px"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 4px"><p class="title cw">Для любых дизельных машин</p><p class="small cg">Ставим с выездом за 2 часа.</p></div></li>
+</ul>
+<div class="g2" style="gap: 12px">
+<div class="col" style="background: rgba(255,255,255,.07); border-radius: 12px; padding: 20px; gap: 6px"><p class="title cw">Сделано в Корее</p><p class="small cg">Производство KMPTY в Кимхэ, провинция Кёнсан-Намдо.</p></div>
+<div class="col" style="background: rgba(255,255,255,.07); border-radius: 12px; padding: 20px; gap: 6px"><p class="title cw">Запатентованная технология</p><p class="small cg">Патенты Кореи № 10-2655125 и № 10-2813470.</p></div>
+</div>
+</div>
+<div class="what-photo" style="flex: 1 1 0; min-width: 0; min-height: 360px; position: relative; border-radius: 8px; overflow: hidden; background: #f3f4f6">
+<img src="assets/4dbeb280778c64b558c5326678f5eacb.jpg" alt="Прибор KM-CT4: открытый и закрытый корпус" class="what-img" style="width: 100%; height: 100%; object-fit: cover; display: block; position: absolute; inset: 0">
+<span style="position: absolute; left: 50%; bottom: 24px; transform: translateX(-50%); white-space: nowrap; display: inline-flex; align-items: center; gap: 10px; background: #18191b; color: #fff; border-radius: 999px; padding: 10px 18px 10px 12px; font-size: 16px; font-weight: 600"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M0 11a11 11 0 0 1 22 0z" fill="#cd2e3a"></path><path d="M0 11a11 11 0 0 0 22 0z" fill="#0047a0"></path><circle cx="11" cy="11" r="10.25" fill="none" stroke="#fff" stroke-width="1.5"></circle></svg>Made in Korea</span>
+</div>
+</div>
+</section>
+
+<!-- Annual benefit -->
+<section class="wrap sec" style="display: flex; flex-direction: column; gap: 48px">
+<div class="col" style="gap: 16px"><h2 class="h2">Ваша годовая выгода</h2><p class="lead c2" style="max-width: 760px">Пример для грузовика 25 т: экономия на топливе и на обслуживании двигателя.</p></div>
+<div style="background: #f3f4f6; border-radius: 12px; padding: 8px">
+<div class="g4" style="gap: 8px">
+<div class="col" style="background: #fff; border-radius: 8px; padding: 20px 24px; gap: 6px"><p class="cap c3">Расход</p><p class="title">25 л/100 км</p></div>
+<div class="col" style="background: #fff; border-radius: 8px; padding: 20px 24px; gap: 6px"><p class="cap c3">Пробег</p><p class="title">12 000 км/мес</p></div>
+<div class="col" style="background: #fff; border-radius: 8px; padding: 20px 24px; gap: 6px"><p class="cap c3">Цена дизеля</p><p class="title">1 842 ₩/л</p></div>
+<div class="col" style="background: #fff; border-radius: 8px; padding: 20px 24px; gap: 6px"><p class="cap c3">Экономия топлива</p><p class="title">20%</p></div>
+</div>
+<div class="hide-sm" style="display: flex; gap: 24px; align-items: center; padding: 24px 24px 14px">
+<p class="cap c3" style="flex: 1 1 0">Статья и откуда берётся</p><p class="cap c3" style="text-align: right">В год</p>
+</div>
+<div class="tbl-row" style="display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 20px 24px; border-top: 1px solid #dfe2e6"><div class="col" style="gap: 4px; min-width: 0"><p class="title">Экономия на топливе</p><p class="small c2">7 200 л дизеля в год</p></div><p class="title tbl-val" style="font-size: 20px; text-align: right; white-space: nowrap; flex: none">13,26 млн ₩</p></div>
+<div class="tbl-row" style="display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 20px 24px; border-top: 1px solid #dfe2e6"><div class="col" style="gap: 4px; min-width: 0"><p class="title">Масло и фильтры (ТО)</p><p class="small c2">Интервал замены в 2 раза длиннее: 2–3 замены в год вместо 4–5</p></div><p class="title tbl-val" style="font-size: 20px; text-align: right; white-space: nowrap; flex: none">1,2 млн ₩</p></div>
+<div class="tbl-row" style="display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 20px 24px; border-top: 1px solid #dfe2e6"><div class="col" style="gap: 4px; min-width: 0"><p class="title">Капитальный ремонт двигателя</p><p class="small c2">Отсрочка капремонта на 3 года</p></div><p class="title tbl-val" style="font-size: 20px; text-align: right; white-space: nowrap; flex: none">0,64 млн ₩</p></div>
+<div class="tbl-row" style="display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 20px 24px; border-top: 1px solid #dfe2e6"><div class="col" style="gap: 4px; min-width: 0"><p class="title">Форсунки / ТНВД</p><p class="small c2">Меньше нагара — дольше служат</p></div><p class="title tbl-val" style="font-size: 20px; text-align: right; white-space: nowrap; flex: none">0,5 млн ₩</p></div>
+<div class="tbl-row" style="display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 20px 24px; border-top: 1px solid #dfe2e6"><div class="col" style="gap: 4px; min-width: 0"><p class="title">Простои из-за ремонтов</p><p class="small c2">На 3 дня меньше простоя в год</p></div><p class="title tbl-val" style="font-size: 20px; text-align: right; white-space: nowrap; flex: none">1,5 млн ₩</p></div>
+<div class="tbl-row tbl-total" style="display: flex; gap: 24px; align-items: center; justify-content: space-between; padding: 28px 24px; background: #0161ce; border-radius: 8px">
+<div class="col" style="gap: 4px; min-width: 0"><p class="title cw">Итого за год</p><p class="small" style="color: #dce9fb">Прибор за 2,9 млн ₩ окупается примерно за 2 месяца</p></div><p class="num cw" style="text-align: right; flex: none">17,1 млн ₩</p>
+</div>
+</div>
+<p class="cap c3" style="margin-top: -24px">Расчёт: 25 л/100 км, 12 000 км в месяц, дизель 1 842 ₩/л (Opinet, 1 ноября 2026), экономия топлива 20% — данные производителя KMPTY. Сопутствующие расходы — оценка: замена масла с фильтрами 500 тыс. ₩ каждые 30 000 км; капремонт 15 млн ₩ раз в 7 лет; комплект форсунок 3 млн ₩ раз в 2 года; день простоя 500 тыс. ₩.</p>
+</section>
+
+<!-- Who -->
+<section id="who" class="wrap sec" style="padding-bottom: 112px; display: flex; flex-direction: column; gap: 48px">
+<h2 class="h2">Кому подходит</h2>
+<div class="g2">
+<div class="who-card" style="position: relative; overflow: hidden; background: #26282c; border-radius: 12px; min-height: 320px; padding: 36px 40px 28px"><p class="m24 cw" style="max-width: 300px; position: relative; z-index: 1">Магистральные грузовики и фургоны</p><img class="who-img" src="assets/3bb02ca8e1d9e72a703e5d18f353f6e4.webp" alt="Белый грузовик 25 т с кузовом-«крылом»" style="position: absolute; left: 58.8%; top: 41px; width: 55.9%; height: 255px; object-fit: contain; object-position: left bottom; display: block"></div>
+<div class="who-card" style="position: relative; overflow: hidden; background: #26282c; border-radius: 12px; min-height: 320px; padding: 36px 40px 28px"><p class="m24 cw" style="max-width: 300px; position: relative; z-index: 1">Самосвалы и бетоновозы</p><img class="who-img" src="assets/49613827840663cc2e06f66a97fb82c5.webp" alt="Бетоновоз" style="position: absolute; left: 55.9%; top: 43px; width: 58.8%; height: 250px; object-fit: contain; object-position: left bottom; display: block"></div>
+<div class="who-card" style="position: relative; overflow: hidden; background: #26282c; border-radius: 12px; min-height: 320px; padding: 36px 40px 28px"><p class="m24 cw" style="max-width: 300px; position: relative; z-index: 1">Автобусы</p><img class="who-img" src="assets/75b4b6303089d1c3431f36cd080fd2d1.webp" alt="Междугородний автобус" style="position: absolute; left: 50.0%; top: 65px; width: 64.7%; height: 228px; object-fit: contain; object-position: left bottom; display: block"></div>
+<div class="who-card" style="position: relative; overflow: hidden; background: #26282c; border-radius: 12px; min-height: 320px; padding: 36px 40px 28px"><p class="m24 cw" style="max-width: 300px; position: relative; z-index: 1">Спецтехника на дизеле</p><img class="who-img" src="assets/b54e8adcd4568543e3746e8486e4e1fd.webp" alt="Гусеничный экскаватор" style="position: absolute; left: 55.3%; top: 36px; width: 42.8%; height: 250px; object-fit: contain; object-position: left bottom; display: block"></div>
+</div>
+</section>
+
+<!-- Reviews -->
+<section id="reviews" style="background: #f3f4f6; padding: 112px 0">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px">
+<div class="col" style="gap: 16px"><h2 class="h2">Отзывы</h2><p class="lead c2">Видео установок от производителя и отзывы водителей после установки.</p></div>
+<div style="display: flex; gap: 8px"><button class="arrow" type="button" aria-label="Назад" data-ev-click="revPrev" data-bind-style="opacity: {{revPrevOp}}"><svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.5 4l-6 6 6 6"></path></svg></button><button class="arrow" type="button" aria-label="Вперёд" data-ev-click="revNext"><svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4l6 6-6 6"></path></svg></button></div>
+</div>
+<div class="track" data-ref="revTrack" data-ev-scroll="revScroll">
+<article class="w440" style="width: 440px; background: #fff; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 20px"><button type="button" aria-label="Смотреть видео: видео: установка на парк бетоновозов" style="height: 234px; border: 0; border-radius: 8px; background: #18191b; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; cursor: pointer; width: 100%"><span style="width: 56px; height: 56px; border-radius: 999px; background: #fff; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M5 3l10 6-10 6z" fill="#18191b"></path></svg></span><span class="cap c3">[видео: установка на парк бетоновозов]</span></button><div class="col" style="gap: 16px; padding: 0 12px 12px; align-items: flex-start"><span class="pill">Видео KMPTY</span><p class="body">«Эффективность топлива выросла, дыма заметно меньше».</p><div class="col" style="gap: 4px"><p class="small" style="font-weight: 500">Бетоновозы (주)신화, промзона Ёчхон</p><p class="small c3">Видео производителя · 2026</p></div></div></article>
+<article class="w440" style="width: 440px; background: #fff; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 20px"><button type="button" aria-label="Смотреть видео: видео: грузовик MAXEN 19 т" style="height: 234px; border: 0; border-radius: 8px; background: #18191b; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; cursor: pointer; width: 100%"><span style="width: 56px; height: 56px; border-radius: 999px; background: #fff; display: flex; align-items: center; justify-content: center"><svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M5 3l10 6-10 6z" fill="#18191b"></path></svg></span><span class="cap c3">[видео: грузовик MAXEN 19 т]</span></button><div class="col" style="gap: 16px; padding: 0 12px 12px; align-items: flex-start"><span class="pill">Видео KMPTY</span><p class="body">Установка на грузовик 19 т: что ставим, куда подключаем, как работает.</p><div class="col" style="gap: 4px"><p class="small" style="font-weight: 500">Грузовик Tata Daewoo MAXEN 19 т</p><p class="small c3">Видео производителя · 2025</p></div></div></article>
+<article class="w440" style="width: 440px; background: #fff; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 20px"><div class="ph cap c3" style="height: 234px; border-radius: 8px; background: #e8eaee">[фото водителя с машиной]</div><div class="col" style="gap: 16px; padding: 0 12px 12px; align-items: flex-start"><span class="pill pill-blue">Отзыв водителя</span><p class="body">[Отзыв своими словами: что изменилось после установки]</p><div class="col" style="gap: 4px"><p class="small" style="font-weight: 500">[Имя], [машина]</p><p class="small c3">[Пробег в день] · замер дымности: [до] → [после]</p></div></div></article>
+<article class="w440" style="width: 440px; background: #fff; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 20px"><div class="ph cap c3" style="height: 234px; border-radius: 8px; background: #e8eaee">[фото водителя с машиной]</div><div class="col" style="gap: 16px; padding: 0 12px 12px; align-items: flex-start"><span class="pill pill-blue">Отзыв водителя</span><p class="body">[Отзыв своими словами: что изменилось после установки]</p><div class="col" style="gap: 4px"><p class="small" style="font-weight: 500">[Имя], [машина]</p><p class="small c3">[Пробег в день] · расход: [до] → [после] л/100 км</p></div></div></article>
+</div>
+</div>
+</section>
+
+<!-- News -->
+<section id="news" class="wrap sec" style="display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px">
+<h2 class="h2">Новости и выставки</h2>
+<div style="display: flex; gap: 8px"><button class="arrow arrow-line" type="button" aria-label="Назад" data-ev-click="newsPrev" data-bind-style="opacity: {{newsPrevOp}}"><svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.5 4l-6 6 6 6"></path></svg></button><button class="arrow arrow-line" type="button" aria-label="Вперёд" data-ev-click="newsNext"><svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.5 4l6 6-6 6"></path></svg></button></div>
+</div>
+<div class="track" data-ref="newsTrack" data-ev-scroll="newsScroll">
+<article class="w380" style="width: 380px; display: flex; flex-direction: column; gap: 16px"><div class="ph cap c3" style="height: 260px; border-radius: 12px; background: #f3f4f6">[фото с выставки — Instagram KMPTY]</div><div style="display: flex; align-items: center; gap: 8px"><span class="pill pill-blue">Выставка</span><span class="small c3">17 октября 2026</span></div><div class="col" style="gap: 6px"><p class="title">KMPTY на BIXPO 2026</p><p class="small c2">Производитель показал водородную систему на международной выставке энергетических технологий BIXPO.</p></div></article>
+<article class="w380" style="width: 380px; display: flex; flex-direction: column; gap: 16px"><div class="ph cap c3" style="height: 260px; border-radius: 12px; background: #f3f4f6">[скан сертификата или фото]</div><div style="display: flex; align-items: center; gap: 8px"><span class="pill">Сертификат</span><span class="small c3">Август 2026</span></div><div class="col" style="gap: 6px"><p class="title">Сертифицированный продукт 기술마켓</p><p class="small c2">Система получила сертификат площадки 중소기업기술마켓, № 2026-08-000067, и вошла в каталог 벤처나라.</p></div></article>
+<article class="w380" style="width: 380px; display: flex; flex-direction: column; gap: 16px"><div class="ph cap c3" style="height: 260px; border-radius: 12px; background: #f3f4f6">[фото установки — Instagram KMPTY]</div><div style="display: flex; align-items: center; gap: 8px"><span class="pill">Установка</span><span class="small c3">20 июля 2026</span></div><div class="col" style="gap: 6px"><p class="title">Парк бетоновозов в промзоне 여천</p><p class="small c2">Установили систему на бетоновозы компании (주)신화.</p></div></article>
+<article class="w380" style="width: 380px; display: flex; flex-direction: column; gap: 16px"><div class="ph cap c3" style="height: 260px; border-radius: 12px; background: #f3f4f6">[фото установки — Instagram KMPTY]</div><div style="display: flex; align-items: center; gap: 8px"><span class="pill">Установка</span><span class="small c3">15 февраля 2026</span></div><div class="col" style="gap: 6px"><p class="title">Рыболовное судно 100 т</p><p class="small c2">Систему поставили в машинное отделение — двигатель не трогали, установка внешняя.</p></div></article>
+</div>
+</section>
+
+<!-- Documents -->
+<section id="docs" class="wrap sec" style="padding-bottom: 112px; display: flex; flex-direction: column; gap: 16px">
+<h2 class="h2">Документы</h2>
+<div class="g3" style="padding-top: 32px">
+<a class="tile doc" href="#docs" style="text-decoration: none; color: inherit; padding: 28px; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px"><svg viewBox="0 0 28 28" width="28" height="28" fill="none" stroke="#18191b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 4H9a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M17 4v4h4M11 14h6M11 18h6"></path></svg><div class="col" style="gap: 8px"><p class="m18">Патент № 10-2655125</p><p class="small c2">Скан патента</p></div></a>
+<a class="tile doc" href="#docs" style="text-decoration: none; color: inherit; padding: 28px; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px"><svg viewBox="0 0 28 28" width="28" height="28" fill="none" stroke="#18191b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 4H9a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M17 4v4h4M11 14h6M11 18h6"></path></svg><div class="col" style="gap: 8px"><p class="m18">Патент № 10-2813470</p><p class="small c2">Скан патента</p></div></a>
+<a class="tile doc" href="#docs" style="text-decoration: none; color: inherit; padding: 28px; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px"><svg viewBox="0 0 28 28" width="28" height="28" fill="none" stroke="#18191b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="11" r="6"></circle><path d="M10 16l-2 8 6-3 6 3-2-8"></path></svg><div class="col" style="gap: 8px"><p class="m18">Сертификат 중소기업기술마켓 № 2026-08-000067</p><p class="small c2">Скан сертификата</p></div></a>
+</div>
+</section>
+
+<!-- Price -->
+<section id="price" style="background: #0161ce; padding: 112px 0">
+<div class="wrap" style="display: flex; flex-direction: column; gap: 48px">
+<h2 class="h2 cw">Цена и условия</h2>
+<div class="row stack">
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; background: #fff; border-radius: 12px; padding: 40px; gap: 12px">
+<p style="font-size: 32px; line-height: 1.2; font-weight: 500; letter-spacing: -0.01em">Водородная установка KMPTY KM‑CT4</p>
+<p class="body c2">Установка бесплатно — до 30 ноября 2026</p>
+<p style="font-size: 40px; line-height: 1.05; font-weight: 500; letter-spacing: -0.02em; margin-top: 36px; font-variant-numeric: tabular-nums">2 900 000 ₩</p>
+<p class="small c2">Оплата картой или переводом при установке.<br>Онлайн-оплата на сайте — скоро.</p>
+<button class="btn btn-dark" type="button" data-ev-click="openLead" style="width: 100%; margin-top: auto">Оставить заявку</button>
+</div>
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; background: #18191b; border-radius: 12px; padding: 20px 40px">
+<div class="cond" style="display: flex; gap: 14px; padding: 20px 0; border-bottom: 1px solid #34373c"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 6px"><p class="m18 cw">Гарантия 1 год</p><p class="small cg">Бесплатный сервис весь год</p></div></div>
+<div class="cond" style="display: flex; gap: 14px; padding: 20px 0; border-bottom: 1px solid #34373c"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 6px"><p class="m18 cw">Переставим на новую машину</p><p class="small cg">Сменили грузовик — прибор едет с вами</p></div></div>
+<div class="cond" style="display: flex; gap: 14px; padding: 20px 0; border-bottom: 1px solid #34373c"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 6px"><p class="m18 cw">ТО с выездом</p><p class="small cg">Приезжаем к вам, не нужно ехать в сервис</p></div></div>
+<div class="cond" style="display: flex; gap: 14px; padding: 20px 0"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><div class="col" style="gap: 6px"><p class="m18 cw">Вода для прибора</p><p class="small cg">Привезём по заказу или купите на Coupang <span class="todo">какая вода и цена</span></p></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="wrap sec" style="padding-bottom: 112px; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap">
+<h2 class="h2">Вопросы</h2>
+<div class="col" style="gap: 12px; max-width: 420px"><p class="small c2">Не нашли ответ? Напишите нам в WhatsApp или Telegram — ответим на русском, корейском или английском.</p><div style="display: flex; gap: 24px"><a class="small faq-a" href="#form">WhatsApp</a><a class="small faq-a" href="#form">Telegram</a></div></div>
+</div>
+<div>
+<details open=""><summary style="padding: 26px 0"><span class="m18">Не посадит ли прибор аккумулятор?</span><svg class="plus" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg></summary><p class="body c2" style="padding: 0 0 26px; max-width: 732px">Нет. Прибор включается только при заведённом двигателе, когда аккумулятор заряжается от генератора. На стоянке он выключен.</p></details>
+<details><summary style="padding: 26px 0"><span class="m18">Это безопасно? Водород же горючий.</span><svg class="plus" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg></summary><p class="body c2" style="padding: 0 0 26px; max-width: 732px">Водород не копится: прибор делает его понемногу и сразу отправляет в двигатель. Баллона под давлением нет. <span class="todo">добавить данные сертификации</span></p></details>
+<details><summary style="padding: 26px 0"><span class="m18">Это законно? Нужно ли разрешение на тюнинг (튜닝 승인)?</span><svg class="plus" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg></summary><p class="body c2" style="padding: 0 0 26px; max-width: 732px"><span class="todo">ждём письменный ответ производителя</span></p></details>
+<details><summary style="padding: 26px 0"><span class="m18">Не потеряю ли гарантию на грузовик?</span><svg class="plus" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg></summary><p class="body c2" style="padding: 0 0 26px; max-width: 732px">Двигатель мы не вскрываем: прибор ставится снаружи и подключается к воздушному фильтру и аккумулятору. <span class="todo">ждём ответ производителя</span></p></details>
+<details><summary style="padding: 26px 0"><span class="m18">Какая нужна вода и как часто доливать?</span><svg class="plus" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg></summary><p class="body c2" style="padding: 0 0 26px; max-width: 732px">Одного литра хватает примерно на 5 000 км, бачок — 2 литра. При 400 км в день это долив примерно раз в месяц. Воду привезём по заказу или купите на Coupang. <span class="todo">тип воды</span></p></details>
+<details><summary style="padding: 26px 0"><span class="m18">На какие машины ставится?</span><svg class="plus" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg></summary><p class="body c2" style="padding: 0 0 26px; max-width: 732px">В первую очередь на дизельные грузовики, а также автобусы и спецтехнику. Совместимость с вашей машиной проверим по заявке. <span class="todo">список ограничений</span></p></details>
+<details><summary style="padding: 26px 0"><span class="m18">В какие регионы выезжаете?</span><svg class="plus" viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M10 4v12M4 10h12"></path></svg></summary><p class="body c2" style="padding: 0 0 26px; max-width: 732px"><span class="todo">регионы выезда</span></p></details>
+</div>
+</section>
+
+<!-- Form -->
+<section id="form" class="wrap" style="padding-bottom: 112px">
+<div class="row stack" style="background: #0161ce; border-radius: 12px; padding: 16px">
+<div class="col pad-lg" style="flex: 1 1 0; min-width: 0; background: #fff; border-radius: 12px; padding: 48px 56px; gap: 16px">
+<h2 class="h3m">Оставьте заявку</h2>
+<p class="body c2">Оставьте телефон — перезвоним, проверим совместимость и назовём дату установки.</p>
+<div data-if="sent" style="display: none">
+<div class="col" style="gap: 8px; background: #e8f1fc; border-radius: 8px; padding: 24px; margin-top: 16px"><p class="title">Заявка отправлена</p><p class="small c2">Перезвоним в течение рабочего дня.</p></div>
+</div>
+<div data-if="notSent" style="display: none">
+<form data-ev-submit="submit" class="g2" style="padding-top: 16px">
+<div class="col" style="gap: 8px"><label for="v4name" class="small c2">Имя</label><input id="v4name" class="inp" type="text" autocomplete="name"></div>
+<div class="col" style="gap: 8px"><label for="v4tel" class="small c2">Телефон *</label><input id="v4tel" class="inp" type="tel" required="" placeholder="010-0000-0000" autocomplete="tel"></div>
+<div class="col" style="gap: 8px"><label for="v4car" class="small c2">Марка и модель машины</label><input id="v4car" class="inp" type="text" placeholder="Например, Hyundai Xcient 25 т"></div>
+<div class="col" style="gap: 8px"><label for="v4reg" class="small c2">Регион</label><input id="v4reg" class="inp" type="text" placeholder="Например, Пхёнтхэк"></div>
+<div class="col" style="gap: 8px; grid-column: 1 / -1"><label for="v4how" class="small c2">Как с вами связаться</label><select id="v4how" class="inp"><option>Звонок</option><option>WhatsApp</option><option>Telegram</option><option>KakaoTalk</option></select></div>
+<label style="grid-column: 1 / -1; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.55"><input type="checkbox" required="" style="width: 18px; height: 18px; margin: 2px 0 0; accent-color: #0161ce"><span>Согласен на обработку персональных данных по <a href="#top" style="color: #0161ce">политике конфиденциальности</a></span></label>
+<button class="btn btn-dark" type="submit" style="grid-column: 1 / -1; width: 100%">Отправить заявку</button>
+</form>
+</div>
+</div>
+<div class="hide-sm" style="flex: 0 1 520px; min-width: 0; position: relative">
+<img src="assets/bd69275a564aadca15f95cbb6752aaf7.webp" alt="" aria-hidden="true" style="width: 100%; height: 100%; object-fit: contain; object-position: center bottom; display: block">
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer style="background: #18191b">
+<div class="wrap" style="padding-top: 88px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 64px">
+<div class="footer-top" style="display: flex; flex-wrap: wrap; gap: 32px">
+<div class="col fbrand" style="flex: 0 1 440px; gap: 20px; align-items: flex-start">
+<img src="assets/adb6bdfceb2ea89c296e559b70a86937.svg" alt="Crystal Logistics" style="height: 28px; width: auto; display: block">
+<p class="body cg">Официальный дилер водородных систем KMPTY в Корее. Установка с выездом за 2 часа.</p>
+<button class="btn btn-blue" type="button" data-ev-click="openInstall">Записаться на установку</button>
+</div>
+<nav aria-label="О продукте" class="col fnav" style="flex: 1 1 200px; gap: 14px"><p class="small c3">О продукте</p><a class="body cw" href="#how" style="text-decoration: none">Как это работает</a><a class="body cw" href="#benefits" style="text-decoration: none">Преимущества</a><a class="body cw" href="#before-after" style="text-decoration: none">До и после</a><a class="body cw" href="#what" style="text-decoration: none">Что это за установка</a><a class="body cw" href="#who" style="text-decoration: none">Кому подходит</a></nav>
+<nav aria-label="Покупателю" class="col fnav" style="flex: 1 1 200px; gap: 14px"><p class="small c3">Покупателю</p><a class="body cw" href="#calc" style="text-decoration: none">Калькулятор экономии</a><a class="body cw" href="#price" style="text-decoration: none">Цена и условия</a><a class="body cw" href="#reviews" style="text-decoration: none">Отзывы</a><a class="body cw" href="#news" style="text-decoration: none">Новости и выставки</a><a class="body cw" href="#docs" style="text-decoration: none">Документы</a><a class="body cw" href="#faq" style="text-decoration: none">Вопросы и ответы</a></nav>
+<div class="col fnav" style="flex: 1 1 200px; gap: 14px"><p class="small c3">Связаться</p><a class="body cw" href="tel:+820000000000" style="text-decoration: none">[+82 10-0000-0000]</a><a class="body cw" href="#form" style="text-decoration: none">WhatsApp</a><a class="body cw" href="#form" style="text-decoration: none">Telegram</a><a class="body cw" href="#form" style="text-decoration: none">카카오톡 채널</a><a class="body cw" href="#form" style="text-decoration: none">[email@crystal-logistics.kr]</a></div>
+</div>
+<div class="col" style="gap: 6px"><p class="small c3">크리스탈로지스 (Crystal Logistics) · ИП Ким Евгений · Пхёнтхэк, [адрес]</p><p class="small c3">사업자등록번호 [номер] · 통신판매업 신고번호 [номер]</p></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px 24px; padding-top: 24px; border-top: 1px solid #2c2e33">
+<p class="small c3">© 2026 Crystal Logistics</p>
+<div style="display: flex; flex-wrap: wrap; gap: 24px"><a class="small cg" href="#top" style="text-decoration: none">Политика конфиденциальности</a><p class="small cg">한국어 · RU · EN</p></div>
+</div>
+</div>
+</footer>
+
+<!-- Popup form -->
+<div data-if="modalOpen" style="display: none">
+<div class="overlay" data-ev-click="closeModalBg">
+<div class="dialog" role="dialog" aria-modal="true" aria-labelledby="v4mtitle" data-ev-keydown="modalKey">
+<button class="xbtn" type="button" aria-label="Закрыть" data-ev-click="closeModal"><svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="#18191b" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"></path></svg></button>
+<div data-if="modalSent" style="display: none">
+<div class="col" style="gap: 12px; padding: 24px 0 8px; align-items: flex-start"><svg class="vicon" viewBox="0 0 32 32" aria-hidden="true"><path d="M14.6216 4.47582C15.4398 3.66005 16.7638 3.66005 17.5819 4.47582L18.018 4.91069C18.5468 5.43794 19.3162 5.64409 20.0378 5.45187L20.6329 5.29333C21.7493 4.99593 22.8959 5.65791 23.1966 6.77346L23.3569 7.36814C23.5512 8.08916 24.1144 8.65237 24.8354 8.84669L25.4301 9.00697C26.5456 9.30762 27.2076 10.4542 26.9102 11.5706L26.7517 12.1658C26.5595 12.8874 26.7656 13.6567 27.2929 14.1855L27.7277 14.6216C28.5435 15.4398 28.5435 16.7638 27.7277 17.5819L27.2929 18.018C26.7656 18.5468 26.5595 19.3162 26.7517 20.0378L26.9102 20.6329C27.2076 21.7493 26.5456 22.8959 25.4301 23.1966L24.8354 23.3569C24.1144 23.5512 23.5512 24.1144 23.3569 24.8354L23.1966 25.4301C22.8959 26.5456 21.7493 27.2076 20.6329 26.9102L20.0378 26.7517C19.3162 26.5595 18.5468 26.7656 18.018 27.2929L17.5819 27.7277C16.7638 28.5435 15.4398 28.5435 14.6216 27.7277L14.1855 27.2929C13.6567 26.7656 12.8874 26.5595 12.1658 26.7517L11.5706 26.9102C10.4542 27.2076 9.30762 26.5456 9.00697 25.4301L8.84669 24.8354C8.65237 24.1144 8.08916 23.5512 7.36814 23.3569L6.77346 23.1966C5.65791 22.8959 4.99593 21.7493 5.29333 20.6329L5.45187 20.0378C5.64409 19.3162 5.43794 18.5468 4.91069 18.018L4.47582 17.5819C3.66005 16.7638 3.66005 15.4398 4.47582 14.6216L4.91069 14.1855C5.43794 13.6567 5.64409 12.8874 5.45187 12.1658L5.29333 11.5706C4.99593 10.4542 5.65791 9.30762 6.77346 9.00696L7.36814 8.84669C8.08916 8.65237 8.65237 8.08916 8.84669 7.36814L9.00697 6.77346C9.30762 5.65791 10.4542 4.99593 11.5706 5.29333L12.1658 5.45187C12.8874 5.64409 13.6567 5.43794 14.1855 4.91069L14.6216 4.47582Z" fill="#0161CE"></path><path d="M11.3857 16.0931L14.7026 19.4995L21.0811 12.6866" fill="none" stroke="#fff" stroke-width="1.31" stroke-linecap="round" stroke-linejoin="round"></path></svg><h2 id="v4mtitle" class="h3m" style="font-size: 30px">Заявка отправлена</h2><p class="body c2">Перезвоним в течение рабочего дня, проверим совместимость и назовём дату установки.</p><button class="btn btn-dark" type="button" data-ev-click="closeModal" style="margin-top: 12px">Хорошо</button></div>
+</div>
+<div data-if="modalForm" style="display: none">
+<div class="col" style="gap: 8px; padding-right: 40px"><h2 id="v4mtitle" class="h3m" style="font-size: 30px"><span data-text="{{modalTitle}}"></span></h2><p class="body c2"><span data-text="{{modalText}}"></span></p></div>
+<form data-ev-submit="submitModal" class="g2" style="padding-top: 20px; gap: 14px 16px">
+<div class="col" style="gap: 8px"><label for="m4name" class="small c2">Имя</label><input id="m4name" class="inp" type="text" autocomplete="name" ></div>
+<div class="col" style="gap: 8px"><label for="m4tel" class="small c2">Телефон *</label><input id="m4tel" class="inp" type="tel" required="" placeholder="010-0000-0000" autocomplete="tel"></div>
+<div class="col" style="gap: 8px"><label for="m4car" class="small c2">Марка и модель машины</label><input id="m4car" class="inp" type="text" placeholder="Например, Hyundai Xcient 25 т"></div>
+<div class="col" style="gap: 8px"><label for="m4reg" class="small c2">Регион</label><input id="m4reg" class="inp" type="text" placeholder="Например, Пхёнтхэк"></div>
+<div class="col" style="gap: 8px; grid-column: 1 / -1"><label for="m4how" class="small c2">Как с вами связаться</label><select id="m4how" class="inp"><option>Звонок</option><option>WhatsApp</option><option>Telegram</option><option>KakaoTalk</option></select></div>
+<label style="grid-column: 1 / -1; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.55"><input type="checkbox" required="" style="width: 18px; height: 18px; margin: 2px 0 0; accent-color: #0161ce; flex: none"><span>Согласен на обработку персональных данных по <a href="#top" style="color: #0161ce">политике конфиденциальности</a></span></label>
+<button class="btn btn-dark" type="submit" style="grid-column: 1 / -1; width: 100%">Отправить заявку</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Sticky CTA on phones -->
+<div class="mcta"><button class="btn btn-blue" type="button" data-ev-click="openLead" style="width: 100%">Оставить заявку</button></div>
+
+</div>
+
+
+<script>
+
+class DCLogic { constructor() { this.state = {}; } setState(p) { Object.assign(this.state, p); schedule(); } }
+
+const KM_STAGE="<div class=\"stage-box\">\n<svg id=\"stage\" data-scene=\"0\" viewBox=\"0 30 1200 675\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Схема грузовика с водородной установкой KM-CT4\">\n<defs>\n<linearGradient id=\"h2fade\" gradientUnits=\"userSpaceOnUse\" x1=\"918\" y1=\"270\" x2=\"930\" y2=\"302\"><stop offset=\"0\" stop-color=\"#4fc3f7\"/><stop offset=\"1\" stop-color=\"#4fc3f7\" stop-opacity=\"0\"/></linearGradient>\n<radialGradient id=\"flameG\" cx=\"50%\" cy=\"60%\" r=\"60%\">\n<stop offset=\"0\" stop-color=\"#ffd59a\"/>\n<stop offset=\".55\" stop-color=\"#f07a3a\"/>\n<stop offset=\"1\" stop-color=\"#f07a3a\" stop-opacity=\"0\"/>\n</radialGradient>\n<radialGradient id=\"flameClean\" cx=\"50%\" cy=\"60%\" r=\"60%\">\n<stop offset=\"0\" stop-color=\"#e9f7ff\"/>\n<stop offset=\".35\" stop-color=\"#ffe2a8\"/>\n<stop offset=\".75\" stop-color=\"#ff9b52\"/>\n<stop offset=\"1\" stop-color=\"#ff9b52\" stop-opacity=\"0\"/>\n</radialGradient>\n</defs>\n<line class=\"ground\" x1=\"20\" y1=\"430\" x2=\"1180\" y2=\"430\"/>\n<line id=\"road\" class=\"road\" x1=\"20\" y1=\"446\" x2=\"1180\" y2=\"446\"/>\n<g id=\"truck\">\n<!-- wing body 10.2 m -->\n<rect class=\"ln\" x=\"70\" y=\"110\" width=\"816\" height=\"218\" rx=\"3\"/>\n<path class=\"ln thin\" d=\"M70 122 H886 M70 270 H886 M70 318 H886\"/>\n<path class=\"ln thin\" d=\"M342 122 V318 M614 122 V318\"/>\n<path class=\"ln\" d=\"M80 110 V328\"/>\n<path class=\"ln\" d=\"M86 344 V362 H124\"/>\n<!-- frame -->\n<path class=\"ln\" d=\"M904 330 H76 V344 H904\"/>\n<path class=\"hid\" d=\"M904 330 H1086 V344 H904\"/>\n<!-- air intake snorkel on the cab back corner -->\n<rect class=\"ln\" x=\"890\" y=\"186\" width=\"10\" height=\"76\" rx=\"4\"/>\n<path class=\"ln\" d=\"M900 252 H902\"/>\n<!-- air cleaner under the cab (H2 line goes into its cover) -->\n<rect class=\"ln\" x=\"902\" y=\"238\" width=\"48\" height=\"36\" rx=\"10\"/>\n<path class=\"ln thin\" d=\"M912 240 V272 M920 240 V272 M928 240 V272 M936 240 V272\"/>\n<path class=\"hid\" d=\"M950 256 Q956 256 956 262 L956 294\"/>\n<!-- roof spoiler + cab extender -->\n<path class=\"ln\" d=\"M1014 152 C980 141 946 127 914 117 Q906 115 906 122 V151\"/>\n<path class=\"ln thin\" d=\"M904 126 L893 130 V184\"/>\n<!-- cab shell: high roof, raked front, wheel arch cut into the skirt -->\n<path class=\"ln\" d=\"M904 370 V168 Q904 158 916 157 L1056 152 Q1079 151 1085 166 L1094 256 L1099 298 V362 L1098 370 L1036 370 A52 52 0 0 0 934 370 Z\"/>\n<!-- sun visor + A-pillar -->\n<path class=\"ln thin\" d=\"M1060 152 L1093 160 L1090 168 M1082 172 L1091 256\"/>\n<!-- side window with quarter dip -->\n<path class=\"ln\" d=\"M968 182 L1066 176 Q1075 176 1077 184 L1084 254 L1046 258 Q1000 248 968 244 Z\"/>\n<!-- door, handle, belt line -->\n<path class=\"ln\" d=\"M958 172 L1070 168 M958 172 V330 H1032 M1086 258 V312 Q1086 330 1066 330 H1032\"/>\n<path class=\"ln\" d=\"M966 270 H982\"/>\n<path class=\"ln thin\" d=\"M908 262 H956 M958 280 L1086 276 M1088 262 H1096 M918 162 V326 M1090 266 L1094 358\"/>\n<!-- lower skirt + step well behind the arch -->\n<path class=\"ln thin\" d=\"M904 330 H956\"/>\n<rect class=\"ln\" x=\"908\" y=\"350\" width=\"24\" height=\"58\" rx=\"3\"/>\n<path class=\"ln thin\" d=\"M911 370 H929 M911 390 H929\"/>\n<!-- front face: grille slats edge-on, headlight, bumper -->\n<path class=\"ln thin\" d=\"M1093 272 H1098 M1094 284 H1099 M1094 296 H1099 M1094 308 H1099 M1094 320 H1099\"/>\n<rect class=\"ln\" x=\"1082\" y=\"336\" width=\"18\" height=\"12\" rx=\"3\"/>\n<path class=\"ln\" d=\"M1040 370 V392 Q1040 398 1046 398 H1094 Q1102 398 1102 390 V364 Q1102 358 1098 358\"/>\n<path class=\"ln thin\" d=\"M1046 384 H1100\"/>\n<!-- KM-CT4 under the cab, next to the air intake -->\n<rect id=\"device-shell\" class=\"ln nodraw\" x=\"905\" y=\"278\" width=\"40\" height=\"42\" rx=\"0.6\"/>\n<!-- mirrors -->\n<path class=\"ln\" d=\"M1086 196 L1106 190\"/>\n<rect class=\"ln\" x=\"1102\" y=\"166\" width=\"9\" height=\"52\" rx=\"3\"/>\n<rect class=\"ln thin\" x=\"1104\" y=\"224\" width=\"7\" height=\"18\" rx=\"2\"/>\n<!-- engine under cab (hidden) -->\n<rect id=\"engine-body\" class=\"hid\" x=\"932\" y=\"294\" width=\"118\" height=\"54\" rx=\"5\"/>\n<!-- mudguards -->\n<path class=\"ln\" d=\"M322 386 Q324 342 370 340 Q404 340 420 352 Q436 340 470 340 Q516 342 518 386\"/>\n<path class=\"ln thin\" d=\"M930 374 A57 57 0 0 1 1040 374\"/>\n<!-- DPF / muffler -->\n<rect class=\"ln\" x=\"518\" y=\"350\" width=\"60\" height=\"36\" rx=\"14\"/>\n<path class=\"ln thin\" d=\"M530 352 V384 M566 352 V384\"/>\n<path class=\"ln\" d=\"M524 386 V410\"/>\n<!-- AdBlue -->\n<rect class=\"ln\" x=\"584\" y=\"352\" width=\"22\" height=\"32\" rx=\"3\"/>\n<rect class=\"ln\" x=\"590\" y=\"346\" width=\"10\" height=\"6\" rx=\"1.5\"/>\n<!-- battery box -->\n<rect class=\"ln\" x=\"612\" y=\"352\" width=\"42\" height=\"40\" rx=\"3\"/>\n<path class=\"ln thin\" d=\"M620 352 v-4 M644 352 v-4\"/>\n<!-- fuel tank -->\n<rect class=\"ln\" x=\"662\" y=\"348\" width=\"144\" height=\"46\" rx=\"10\"/>\n<path class=\"ln thin\" d=\"M700 350 V392 M768 350 V392\"/>\n<circle class=\"ln\" cx=\"792\" cy=\"356\" r=\"4\"/>\n<!-- wheels: 3 rear + 2 steer -->\n<g class=\"wheel\" data-cx=\"370\"><circle class=\"ln\" cx=\"370\" cy=\"388\" r=\"42\"/><circle class=\"ln\" cx=\"370\" cy=\"388\" r=\"27\"/><circle class=\"ln thin\" cx=\"370\" cy=\"388\" r=\"17\"/><circle class=\"ln\" cx=\"370\" cy=\"388\" r=\"6\"/><path class=\"ln thin\" d=\"M370 371 V379 M386 383 L379 385 M380 402 L375 395 M360 402 L365 395 M354 383 L361 385\"/></g>\n<g class=\"wheel\" data-cx=\"470\"><circle class=\"ln\" cx=\"470\" cy=\"388\" r=\"42\"/><circle class=\"ln\" cx=\"470\" cy=\"388\" r=\"27\"/><circle class=\"ln thin\" cx=\"470\" cy=\"388\" r=\"17\"/><circle class=\"ln\" cx=\"470\" cy=\"388\" r=\"6\"/><path class=\"ln thin\" d=\"M470 371 V379 M486 383 L479 385 M480 402 L475 395 M460 402 L465 395 M454 383 L461 385\"/></g>\n<g class=\"wheel\" data-cx=\"985\"><circle class=\"ln\" cx=\"985\" cy=\"388\" r=\"42\"/><circle class=\"ln\" cx=\"985\" cy=\"388\" r=\"27\"/><circle class=\"ln thin\" cx=\"985\" cy=\"388\" r=\"17\"/><circle class=\"ln\" cx=\"985\" cy=\"388\" r=\"6\"/><path class=\"ln thin\" d=\"M985 371 V379 M1001 383 L994 385 M995 402 L990 395 M975 402 L980 395 M969 383 L976 385\"/></g>\n</g>\n<!-- smoke from tailpipe -->\n<g id=\"smoke\"><circle cx=\"520\" cy=\"416\" r=\"5\"/><circle cx=\"510\" cy=\"414\" r=\"7\"/><circle cx=\"496\" cy=\"410\" r=\"9\"/></g>\n<!-- final scene: crankshaft → driveshaft along the frame → rear drive axles -->\n<g id=\"drive\">\n<circle class=\"ring\" cx=\"370\" cy=\"388\" r=\"47\"/>\n<circle class=\"ring\" cx=\"470\" cy=\"388\" r=\"47\"/>\n<path id=\"drive-crank\" d=\"M1044 337 H1032 v4 h-10 v-8 h-10 v8 h-10 v-8 h-10 v8 h-10 v-8 h-10 v4 H940\"/>\n<path id=\"drive-main\" d=\"M940 337 H470 V382\"/>\n<path id=\"drive-rear\" d=\"M470 337 H370 V382\"/>\n</g>\n<!-- battery wire pulse -->\n<path id=\"wire-pulse\" d=\"M644 348 V346 H896 Q902 346 902 340 V309\"/>\n<!-- device interior (x-ray) -->\n<g id=\"device-detail\" transform=\"translate(905 278) scale(0.2)\">\n<rect class=\"panel\" x=\"10\" y=\"8\" width=\"180\" height=\"194\" rx=\"2\"/>\n<rect class=\"ln\" x=\"0\" y=\"0\" width=\"200\" height=\"210\" rx=\"3\"/>\n<rect class=\"ln thin\" x=\"10\" y=\"8\" width=\"180\" height=\"194\" rx=\"2\"/>\n<path class=\"ln\" d=\"M-14 218 H34 V210 M166 210 V218 H214\"/>\n<path class=\"ln thin\" d=\"M-6 214 h8 M14 214 h8 M178 214 h8 M198 214 h8\"/>\n<!-- left wall fittings -->\n<path class=\"ln\" d=\"M0 32 H-8 Q-12 32 -12 28 V18\"/><rect class=\"ln\" x=\"-15\" y=\"9\" width=\"6\" height=\"9\" rx=\"1\"/>\n<rect class=\"ln thin\" x=\"-12\" y=\"58\" width=\"12\" height=\"7\" rx=\"1.5\"/><rect class=\"ln\" x=\"-10\" y=\"65\" width=\"8\" height=\"56\" rx=\"2\"/><rect class=\"ln thin\" x=\"-12\" y=\"121\" width=\"12\" height=\"7\" rx=\"1.5\"/>\n<circle id=\"sgball\" class=\"h2dot\" cx=\"-6\" cy=\"104\" r=\"2.2\"/>\n<rect class=\"ln\" x=\"-12\" y=\"148\" width=\"12\" height=\"14\" rx=\"2\"/><path class=\"ln thin\" d=\"M-9 152 h6 M-9 158 h6\"/>\n<path class=\"ln\" d=\"M0 192 H-14 M-8 186 V198\"/>\n<!-- control board + sensor -->\n<rect class=\"ln thin\" x=\"22\" y=\"12\" width=\"120\" height=\"10\" rx=\"1\"/>\n<path class=\"ln thin\" d=\"M60 12 v10 M70 12 v10 M80 12 v10 M90 12 v10 M100 12 v10\"/>\n<path class=\"ln thin\" d=\"M70 22 C72 28 64 32 66 30 M84 22 C86 27 92 28 90 30\"/>\n<rect class=\"ln thin\" x=\"148\" y=\"14\" width=\"22\" height=\"12\" rx=\"1.5\"/><circle id=\"led\" class=\"led\" cx=\"155\" cy=\"20\" r=\"2\"/>\n<!-- power module with display -->\n<rect class=\"ln\" x=\"24\" y=\"30\" width=\"74\" height=\"36\" rx=\"2\"/>\n<rect class=\"screen\" x=\"28\" y=\"38\" width=\"44\" height=\"24\" rx=\"1.5\"/>\n<text id=\"dv\" class=\"lcd\" x=\"31\" y=\"45.5\">11.94V</text><text id=\"da\" class=\"lcd b\" x=\"31\" y=\"52.5\">1.73A</text><text id=\"dw\" class=\"lcd c\" x=\"31\" y=\"59.5\">20.66W</text>\n<circle class=\"ln\" cx=\"85\" cy=\"50\" r=\"6\"/><path class=\"ln thin\" d=\"M85 44 v4\"/>\n<!-- separator flask -->\n<rect class=\"ln\" x=\"12\" y=\"72\" width=\"30\" height=\"8\" rx=\"2\"/>\n<rect class=\"ln\" x=\"15\" y=\"80\" width=\"24\" height=\"80\"/>\n<rect class=\"water\" x=\"15.5\" y=\"124\" width=\"23\" height=\"35.5\"/>\n<path class=\"ln thin\" d=\"M16 124 Q22 122 27 124 T38 124\"/>\n<rect class=\"ln\" x=\"12\" y=\"160\" width=\"30\" height=\"10\" rx=\"2\"/>\n<g id=\"sepBub\"></g>\n<!-- relay / bracket -->\n<rect class=\"ln thin\" x=\"56\" y=\"118\" width=\"22\" height=\"34\" rx=\"1.5\"/><path class=\"ln thin\" d=\"M60 126 h14 M60 134 h14 M60 142 h14\"/>\n<!-- water tank -->\n<rect class=\"ln\" x=\"124\" y=\"32\" width=\"30\" height=\"12\" rx=\"3\"/><path class=\"ln thin\" d=\"M129 32 v12 M135 32 v12 M141 32 v12 M147 32 v12\"/>\n<rect class=\"ln thin\" x=\"130\" y=\"44\" width=\"18\" height=\"4\"/>\n<rect class=\"water\" x=\"105\" y=\"74\" width=\"80\" height=\"73\" rx=\"8\"/>\n<rect class=\"ln\" x=\"104\" y=\"48\" width=\"82\" height=\"100\" rx=\"9\"/>\n<path class=\"ln thin\" d=\"M106 74 Q120 71 134 74 T164 74 T184 74\"/>\n<path class=\"ln thin\" d=\"M139 92 h8 l6 6 v8 l-6 6 h-8 l-6 -6 v-8 Z\"/>\n<path class=\"ln thin\" d=\"M176 60 l8 -4\"/>\n<g id=\"tankBub\"></g>\n<!-- PEM electrolyser stack -->\n<rect class=\"ln\" x=\"106\" y=\"164\" width=\"6\" height=\"20\" rx=\"1\"/><rect class=\"ln\" x=\"178\" y=\"164\" width=\"6\" height=\"20\" rx=\"1\"/>\n<rect class=\"ln\" x=\"112\" y=\"160\" width=\"66\" height=\"28\" rx=\"2\"/>\n<path class=\"ln thin\" d=\"M118 162 V186 M124 162 V186 M130 162 V186 M136 162 V186 M142 162 V186 M148 162 V186 M154 162 V186 M160 162 V186 M166 162 V186 M172 162 V186\"/>\n<!-- tubes -->\n<path class=\"tube\" d=\"M140 148 V160 M110 176 C80 200 46 196 28 170 M27 72 C30 52 60 26 100 28 C150 30 176 40 182 58 M40 190 C80 172 120 198 186 178 M20 72 C18 56 10 40 0 32\"/>\n<!-- live flows -->\n<path id=\"fPow\" class=\"flow pow\" d=\"M-6 155 H6 C48 156 50 120 50 80 V66 M98 48 C106 60 104 140 122 160\"/>\n<path id=\"fWater\" class=\"flow wat\" d=\"M140 147 V160\"/>\n<path id=\"fH2\" class=\"flow h2\" d=\"M112 176 C80 200 46 196 28 170 L27 82 C24 60 12 40 0 32 H-12\"/>\n</g>\n<!-- hydrogen path: device → intake → cylinder -->\n<path id=\"h2flow\" d=\"M902.2 284.4 Q896 284.4 896 279 Q896 272 904 272 L922 272 Q926 272 926 278 L926 298 Q926 303.7 931 303.7\"/>\n<!-- engine cutaway: inline-6 (local 0..520 x 0..240, scale .23) -->\n<g id=\"engine-detail\" transform=\"translate(930 292) scale(0.23)\">\n<rect class=\"panel\" x=\"30\" y=\"72\" width=\"460\" height=\"124\"/>\n<rect class=\"ln\" x=\"40\" y=\"0\" width=\"440\" height=\"8\" rx=\"4\"/>\n<path class=\"ln\" d=\"M34 38 V20 Q34 10 46 10 H474 Q486 10 486 20 V38\"/>\n<rect class=\"ln\" x=\"20\" y=\"38\" width=\"480\" height=\"34\" rx=\"3\"/>\n<path class=\"ln\" d=\"M30 72 V196 H490 V72\"/>\n<path class=\"ln\" d=\"M34 196 L46 228 H474 L486 196\"/>\n<path class=\"ln thin\" d=\"M4 42 H486 M4 52 H486 M4 42 V52\"/>\n<path class=\"ln thin\" d=\"M40 58 H500 M40 68 H500\"/>\n<circle class=\"ln\" cx=\"510\" cy=\"63\" r=\"14\"/><path class=\"ln thin\" d=\"M510 63 m0 -8 a8 8 0 1 1 -6 3 M510 63 m0 -4 a4 4 0 1 1 -3 1.5\"/>\n<path class=\"ln thin\" d=\"M108 90 l4 6 M108 110 l4 6 M108 130 l4 6 M108 150 l4 6 M182 90 l4 6 M182 110 l4 6 M182 130 l4 6 M182 150 l4 6 M256 90 l4 6 M256 110 l4 6 M256 130 l4 6 M256 150 l4 6 M330 90 l4 6 M330 110 l4 6 M330 130 l4 6 M330 150 l4 6 M404 90 l4 6 M404 110 l4 6 M404 130 l4 6 M404 150 l4 6\"/>\n<path class=\"ln thin\" d=\"M36 202 H484 M36 210 H484\"/>\n<circle class=\"ln\" cx=\"38\" cy=\"206\" r=\"6\"/><circle class=\"ln\" cx=\"112\" cy=\"206\" r=\"6\"/><circle class=\"ln\" cx=\"186\" cy=\"206\" r=\"6\"/><circle class=\"ln\" cx=\"260\" cy=\"206\" r=\"6\"/><circle class=\"ln\" cx=\"334\" cy=\"206\" r=\"6\"/><circle class=\"ln\" cx=\"408\" cy=\"206\" r=\"6\"/><circle class=\"ln\" cx=\"482\" cy=\"206\" r=\"6\"/>\n<circle class=\"ln\" cx=\"16\" cy=\"206\" r=\"12\"/><circle class=\"ln\" cx=\"16\" cy=\"120\" r=\"8\"/><path class=\"ln thin\" d=\"M4 206 V120 M28 206 V120\"/>\n<g id=\"fly\"><circle class=\"ln\" cx=\"500\" cy=\"206\" r=\"26\"/><path class=\"ln thin\" d=\"M500 182 V230 M476 206 H524 M483 189 L517 223 M517 189 L483 223\"/></g>\n<g class=\"cyl\" data-i=\"0\">\n<path class=\"ln\" d=\"M47 72 V176 M103 72 V176\"/><path class=\"ln thin\" d=\"M44 74 V174 M106 74 V174\"/>\n<circle class=\"ln thin\" cx=\"63\" cy=\"20\" r=\"4\"/><circle class=\"ln thin\" cx=\"87\" cy=\"20\" r=\"4\"/>\n<g class=\"vIn\"><path class=\"ln\" d=\"M63 24 V71 M56 73 H70\"/><path class=\"ln thin\" d=\"M59 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<g class=\"vEx\"><path class=\"ln\" d=\"M87 24 V71 M80 73 H94\"/><path class=\"ln thin\" d=\"M83 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<path class=\"ln thin\" d=\"M75 8 V12\"/><rect class=\"ln\" x=\"71\" y=\"12\" width=\"8\" height=\"58\" rx=\"2.5\"/><path class=\"ln thin\" d=\"M75 70 V76\"/>\n<path class=\"spray\" d=\"M75 77 L65 85 M75 77 L72 87 M75 77 L78 87 M75 77 L85 85\"/>\n<ellipse class=\"flame\" cx=\"75\" cy=\"80\" rx=\"24\" ry=\"7\" fill=\"url(#flameG)\" opacity=\"0\"/>\n<g class=\"sootd\"><circle class=\"soot\" cx=\"65\" cy=\"80\" r=\"1.6\"/><circle class=\"soot\" cx=\"81\" cy=\"82\" r=\"1.5\"/><circle class=\"soot\" cx=\"89\" cy=\"78\" r=\"1.4\"/></g>\n<g><circle class=\"carbon\" cx=\"55\" cy=\"73.6\" r=\"1.8\"/><circle class=\"carbon\" cx=\"79\" cy=\"73.4\" r=\"1.5\"/><circle class=\"carbon\" cx=\"96\" cy=\"73.6\" r=\"1.8\"/></g>\n<g class=\"pist\"><rect class=\"panel\" x=\"49\" y=\"0\" width=\"52\" height=\"40\"/><path class=\"ln\" d=\"M49 0 H101 V40 H49 Z\"/><path class=\"ln thin\" d=\"M59 0 Q75 10 91 0 M50 7 H100 M50 11 H100 M50 15 H100\"/><circle class=\"ln\" cx=\"75\" cy=\"26\" r=\"4.5\"/><circle class=\"carbon\" cx=\"57\" cy=\"2\" r=\"1.8\"/><circle class=\"carbon\" cx=\"75\" cy=\"5\" r=\"2\"/><circle class=\"carbon\" cx=\"93\" cy=\"2\" r=\"1.7\"/></g>\n<path class=\"ln rod\" d=\"\"/>\n<g class=\"thr\"><path class=\"ln\" d=\"M59 206 A16 16 0 0 0 91 206 Z\"/><path class=\"ln\" d=\"M69 206 L71 186 M81 206 L79 186\"/></g>\n<circle class=\"ln big\" cx=\"75\" cy=\"186\" r=\"7\"/>\n</g>\n<g class=\"cyl\" data-i=\"1\">\n<path class=\"ln\" d=\"M121 72 V176 M177 72 V176\"/><path class=\"ln thin\" d=\"M118 74 V174 M180 74 V174\"/>\n<circle class=\"ln thin\" cx=\"137\" cy=\"20\" r=\"4\"/><circle class=\"ln thin\" cx=\"161\" cy=\"20\" r=\"4\"/>\n<g class=\"vIn\"><path class=\"ln\" d=\"M137 24 V71 M130 73 H144\"/><path class=\"ln thin\" d=\"M133 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<g class=\"vEx\"><path class=\"ln\" d=\"M161 24 V71 M154 73 H168\"/><path class=\"ln thin\" d=\"M157 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<path class=\"ln thin\" d=\"M149 8 V12\"/><rect class=\"ln\" x=\"145\" y=\"12\" width=\"8\" height=\"58\" rx=\"2.5\"/><path class=\"ln thin\" d=\"M149 70 V76\"/>\n<path class=\"spray\" d=\"M149 77 L139 85 M149 77 L146 87 M149 77 L152 87 M149 77 L159 85\"/>\n<ellipse class=\"flame\" cx=\"149\" cy=\"80\" rx=\"24\" ry=\"7\" fill=\"url(#flameG)\" opacity=\"0\"/>\n<g class=\"sootd\"><circle class=\"soot\" cx=\"139\" cy=\"80\" r=\"1.6\"/><circle class=\"soot\" cx=\"155\" cy=\"82\" r=\"1.5\"/><circle class=\"soot\" cx=\"163\" cy=\"78\" r=\"1.4\"/></g>\n<g><circle class=\"carbon\" cx=\"129\" cy=\"73.6\" r=\"1.8\"/><circle class=\"carbon\" cx=\"153\" cy=\"73.4\" r=\"1.5\"/><circle class=\"carbon\" cx=\"170\" cy=\"73.6\" r=\"1.8\"/></g>\n<g class=\"pist\"><rect class=\"panel\" x=\"123\" y=\"0\" width=\"52\" height=\"40\"/><path class=\"ln\" d=\"M123 0 H175 V40 H123 Z\"/><path class=\"ln thin\" d=\"M133 0 Q149 10 165 0 M124 7 H174 M124 11 H174 M124 15 H174\"/><circle class=\"ln\" cx=\"149\" cy=\"26\" r=\"4.5\"/><circle class=\"carbon\" cx=\"131\" cy=\"2\" r=\"1.8\"/><circle class=\"carbon\" cx=\"149\" cy=\"5\" r=\"2\"/><circle class=\"carbon\" cx=\"167\" cy=\"2\" r=\"1.7\"/></g>\n<path class=\"ln rod\" d=\"\"/>\n<g class=\"thr\"><path class=\"ln\" d=\"M133 206 A16 16 0 0 0 165 206 Z\"/><path class=\"ln\" d=\"M143 206 L145 186 M155 206 L153 186\"/></g>\n<circle class=\"ln big\" cx=\"149\" cy=\"186\" r=\"7\"/>\n</g>\n<g class=\"cyl\" data-i=\"2\">\n<path class=\"ln\" d=\"M195 72 V176 M251 72 V176\"/><path class=\"ln thin\" d=\"M192 74 V174 M254 74 V174\"/>\n<circle class=\"ln thin\" cx=\"211\" cy=\"20\" r=\"4\"/><circle class=\"ln thin\" cx=\"235\" cy=\"20\" r=\"4\"/>\n<g class=\"vIn\"><path class=\"ln\" d=\"M211 24 V71 M204 73 H218\"/><path class=\"ln thin\" d=\"M207 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<g class=\"vEx\"><path class=\"ln\" d=\"M235 24 V71 M228 73 H242\"/><path class=\"ln thin\" d=\"M231 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<path class=\"ln thin\" d=\"M223 8 V12\"/><rect class=\"ln\" x=\"219\" y=\"12\" width=\"8\" height=\"58\" rx=\"2.5\"/><path class=\"ln thin\" d=\"M223 70 V76\"/>\n<path class=\"spray\" d=\"M223 77 L213 85 M223 77 L220 87 M223 77 L226 87 M223 77 L233 85\"/>\n<ellipse class=\"flame\" cx=\"223\" cy=\"80\" rx=\"24\" ry=\"7\" fill=\"url(#flameG)\" opacity=\"0\"/>\n<g class=\"sootd\"><circle class=\"soot\" cx=\"213\" cy=\"80\" r=\"1.6\"/><circle class=\"soot\" cx=\"229\" cy=\"82\" r=\"1.5\"/><circle class=\"soot\" cx=\"237\" cy=\"78\" r=\"1.4\"/></g>\n<g><circle class=\"carbon\" cx=\"203\" cy=\"73.6\" r=\"1.8\"/><circle class=\"carbon\" cx=\"227\" cy=\"73.4\" r=\"1.5\"/><circle class=\"carbon\" cx=\"244\" cy=\"73.6\" r=\"1.8\"/></g>\n<g class=\"pist\"><rect class=\"panel\" x=\"197\" y=\"0\" width=\"52\" height=\"40\"/><path class=\"ln\" d=\"M197 0 H249 V40 H197 Z\"/><path class=\"ln thin\" d=\"M207 0 Q223 10 239 0 M198 7 H248 M198 11 H248 M198 15 H248\"/><circle class=\"ln\" cx=\"223\" cy=\"26\" r=\"4.5\"/><circle class=\"carbon\" cx=\"205\" cy=\"2\" r=\"1.8\"/><circle class=\"carbon\" cx=\"223\" cy=\"5\" r=\"2\"/><circle class=\"carbon\" cx=\"241\" cy=\"2\" r=\"1.7\"/></g>\n<path class=\"ln rod\" d=\"\"/>\n<g class=\"thr\"><path class=\"ln\" d=\"M207 206 A16 16 0 0 0 239 206 Z\"/><path class=\"ln\" d=\"M217 206 L219 186 M229 206 L227 186\"/></g>\n<circle class=\"ln big\" cx=\"223\" cy=\"186\" r=\"7\"/>\n</g>\n<g class=\"cyl\" data-i=\"3\">\n<path class=\"ln\" d=\"M269 72 V176 M325 72 V176\"/><path class=\"ln thin\" d=\"M266 74 V174 M328 74 V174\"/>\n<circle class=\"ln thin\" cx=\"285\" cy=\"20\" r=\"4\"/><circle class=\"ln thin\" cx=\"309\" cy=\"20\" r=\"4\"/>\n<g class=\"vIn\"><path class=\"ln\" d=\"M285 24 V71 M278 73 H292\"/><path class=\"ln thin\" d=\"M281 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<g class=\"vEx\"><path class=\"ln\" d=\"M309 24 V71 M302 73 H316\"/><path class=\"ln thin\" d=\"M305 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<path class=\"ln thin\" d=\"M297 8 V12\"/><rect class=\"ln\" x=\"293\" y=\"12\" width=\"8\" height=\"58\" rx=\"2.5\"/><path class=\"ln thin\" d=\"M297 70 V76\"/>\n<path class=\"spray\" d=\"M297 77 L287 85 M297 77 L294 87 M297 77 L300 87 M297 77 L307 85\"/>\n<ellipse class=\"flame\" cx=\"297\" cy=\"80\" rx=\"24\" ry=\"7\" fill=\"url(#flameG)\" opacity=\"0\"/>\n<g class=\"sootd\"><circle class=\"soot\" cx=\"287\" cy=\"80\" r=\"1.6\"/><circle class=\"soot\" cx=\"303\" cy=\"82\" r=\"1.5\"/><circle class=\"soot\" cx=\"311\" cy=\"78\" r=\"1.4\"/></g>\n<g><circle class=\"carbon\" cx=\"277\" cy=\"73.6\" r=\"1.8\"/><circle class=\"carbon\" cx=\"301\" cy=\"73.4\" r=\"1.5\"/><circle class=\"carbon\" cx=\"318\" cy=\"73.6\" r=\"1.8\"/></g>\n<g class=\"pist\"><rect class=\"panel\" x=\"271\" y=\"0\" width=\"52\" height=\"40\"/><path class=\"ln\" d=\"M271 0 H323 V40 H271 Z\"/><path class=\"ln thin\" d=\"M281 0 Q297 10 313 0 M272 7 H322 M272 11 H322 M272 15 H322\"/><circle class=\"ln\" cx=\"297\" cy=\"26\" r=\"4.5\"/><circle class=\"carbon\" cx=\"279\" cy=\"2\" r=\"1.8\"/><circle class=\"carbon\" cx=\"297\" cy=\"5\" r=\"2\"/><circle class=\"carbon\" cx=\"315\" cy=\"2\" r=\"1.7\"/></g>\n<path class=\"ln rod\" d=\"\"/>\n<g class=\"thr\"><path class=\"ln\" d=\"M281 206 A16 16 0 0 0 313 206 Z\"/><path class=\"ln\" d=\"M291 206 L293 186 M303 206 L301 186\"/></g>\n<circle class=\"ln big\" cx=\"297\" cy=\"186\" r=\"7\"/>\n</g>\n<g class=\"cyl\" data-i=\"4\">\n<path class=\"ln\" d=\"M343 72 V176 M399 72 V176\"/><path class=\"ln thin\" d=\"M340 74 V174 M402 74 V174\"/>\n<circle class=\"ln thin\" cx=\"359\" cy=\"20\" r=\"4\"/><circle class=\"ln thin\" cx=\"383\" cy=\"20\" r=\"4\"/>\n<g class=\"vIn\"><path class=\"ln\" d=\"M359 24 V71 M352 73 H366\"/><path class=\"ln thin\" d=\"M355 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<g class=\"vEx\"><path class=\"ln\" d=\"M383 24 V71 M376 73 H390\"/><path class=\"ln thin\" d=\"M379 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<path class=\"ln thin\" d=\"M371 8 V12\"/><rect class=\"ln\" x=\"367\" y=\"12\" width=\"8\" height=\"58\" rx=\"2.5\"/><path class=\"ln thin\" d=\"M371 70 V76\"/>\n<path class=\"spray\" d=\"M371 77 L361 85 M371 77 L368 87 M371 77 L374 87 M371 77 L381 85\"/>\n<ellipse class=\"flame\" cx=\"371\" cy=\"80\" rx=\"24\" ry=\"7\" fill=\"url(#flameG)\" opacity=\"0\"/>\n<g class=\"sootd\"><circle class=\"soot\" cx=\"361\" cy=\"80\" r=\"1.6\"/><circle class=\"soot\" cx=\"377\" cy=\"82\" r=\"1.5\"/><circle class=\"soot\" cx=\"385\" cy=\"78\" r=\"1.4\"/></g>\n<g><circle class=\"carbon\" cx=\"351\" cy=\"73.6\" r=\"1.8\"/><circle class=\"carbon\" cx=\"375\" cy=\"73.4\" r=\"1.5\"/><circle class=\"carbon\" cx=\"392\" cy=\"73.6\" r=\"1.8\"/></g>\n<g class=\"pist\"><rect class=\"panel\" x=\"345\" y=\"0\" width=\"52\" height=\"40\"/><path class=\"ln\" d=\"M345 0 H397 V40 H345 Z\"/><path class=\"ln thin\" d=\"M355 0 Q371 10 387 0 M346 7 H396 M346 11 H396 M346 15 H396\"/><circle class=\"ln\" cx=\"371\" cy=\"26\" r=\"4.5\"/><circle class=\"carbon\" cx=\"353\" cy=\"2\" r=\"1.8\"/><circle class=\"carbon\" cx=\"371\" cy=\"5\" r=\"2\"/><circle class=\"carbon\" cx=\"389\" cy=\"2\" r=\"1.7\"/></g>\n<path class=\"ln rod\" d=\"\"/>\n<g class=\"thr\"><path class=\"ln\" d=\"M355 206 A16 16 0 0 0 387 206 Z\"/><path class=\"ln\" d=\"M365 206 L367 186 M377 206 L375 186\"/></g>\n<circle class=\"ln big\" cx=\"371\" cy=\"186\" r=\"7\"/>\n</g>\n<g class=\"cyl\" data-i=\"5\">\n<path class=\"ln\" d=\"M417 72 V176 M473 72 V176\"/><path class=\"ln thin\" d=\"M414 74 V174 M476 74 V174\"/>\n<circle class=\"ln thin\" cx=\"433\" cy=\"20\" r=\"4\"/><circle class=\"ln thin\" cx=\"457\" cy=\"20\" r=\"4\"/>\n<g class=\"vIn\"><path class=\"ln\" d=\"M433 24 V71 M426 73 H440\"/><path class=\"ln thin\" d=\"M429 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<g class=\"vEx\"><path class=\"ln\" d=\"M457 24 V71 M450 73 H464\"/><path class=\"ln thin\" d=\"M453 26 l8 2 l-8 2 l8 2 l-8 2 l8 2\"/></g>\n<path class=\"ln thin\" d=\"M445 8 V12\"/><rect class=\"ln\" x=\"441\" y=\"12\" width=\"8\" height=\"58\" rx=\"2.5\"/><path class=\"ln thin\" d=\"M445 70 V76\"/>\n<path class=\"spray\" d=\"M445 77 L435 85 M445 77 L442 87 M445 77 L448 87 M445 77 L455 85\"/>\n<ellipse class=\"flame\" cx=\"445\" cy=\"80\" rx=\"24\" ry=\"7\" fill=\"url(#flameG)\" opacity=\"0\"/>\n<g class=\"sootd\"><circle class=\"soot\" cx=\"435\" cy=\"80\" r=\"1.6\"/><circle class=\"soot\" cx=\"451\" cy=\"82\" r=\"1.5\"/><circle class=\"soot\" cx=\"459\" cy=\"78\" r=\"1.4\"/></g>\n<g><circle class=\"carbon\" cx=\"425\" cy=\"73.6\" r=\"1.8\"/><circle class=\"carbon\" cx=\"449\" cy=\"73.4\" r=\"1.5\"/><circle class=\"carbon\" cx=\"466\" cy=\"73.6\" r=\"1.8\"/></g>\n<g class=\"pist\"><rect class=\"panel\" x=\"419\" y=\"0\" width=\"52\" height=\"40\"/><path class=\"ln\" d=\"M419 0 H471 V40 H419 Z\"/><path class=\"ln thin\" d=\"M429 0 Q445 10 461 0 M420 7 H470 M420 11 H470 M420 15 H470\"/><circle class=\"ln\" cx=\"445\" cy=\"26\" r=\"4.5\"/><circle class=\"carbon\" cx=\"427\" cy=\"2\" r=\"1.8\"/><circle class=\"carbon\" cx=\"445\" cy=\"5\" r=\"2\"/><circle class=\"carbon\" cx=\"463\" cy=\"2\" r=\"1.7\"/></g>\n<path class=\"ln rod\" d=\"\"/>\n<g class=\"thr\"><path class=\"ln\" d=\"M429 206 A16 16 0 0 0 461 206 Z\"/><path class=\"ln\" d=\"M439 206 L441 186 M451 206 L449 186\"/></g>\n<circle class=\"ln big\" cx=\"445\" cy=\"186\" r=\"7\"/>\n</g>\n<g id=\"engParts\"></g>\n</g>\n<g id=\"h2dots\"></g>\n</svg>\n</div>";
+function kmMountAnim(root){
+if(root.querySelector('#stage'))return null;
+root.innerHTML=KM_STAGE;
+
+const svg=root.querySelector('#stage');
+let raf=0, alive=true, io=null;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const W={x:28,y:84,w:1112,h:372};
+const shots=[
+  {rect:W, label:'ПЛАН 1 · ОБЩИЙ', eyebrow:'План 1 · Общий', title:'KM-CT4 ставится под кабину', text:'Установка с выездом за 2 часа. Двигатель не трогаем: прибор стоит рядом с воздушным фильтром и питается от штатного аккумулятора.', dur:2400},
+  {rect:{x:886,y:262,w:76,h:66}, label:'ПЛАН 2 · КРУПНЫЙ · РЕНТГЕН', eyebrow:'План 2 · Крупный, рентген', title:'Водород из воды — прямо в дороге', text:'Электролизёр делает водород из воды, автоматика держит режим — на дисплее напряжение, ток и мощность. Водород по трубке уходит в крышку воздушного фильтра и дальше во впуск. Баллона нет, хранить нечего.', dur:5600},
+  {rect:{x:922,y:286,w:136,h:66}, label:'ПЛАН 3 · КРУПНЫЙ · РАЗРЕЗ', eyebrow:'План 3 · Крупный, разрез', title:'Нагар и копоть до установки', text:'Рядная «шестёрка» в разрезе. Без водорода часть топлива догорает не до конца: копоть в камерах, нагар на поршнях, тёмный выхлоп.', title2:'Топливо сгорает полнее', text2:'<span class="num">+15–20%</span> мощности. Водород с воздухом идёт во все цилиндры, нагар с поршней и форсунок уходит, выхлоп светлеет.', dur:7000},
+  {rect:W, label:'ПЛАН 4 · ОБЩИЙ', eyebrow:'План 4 · Общий, в движении', title:'Экономия топлива 10–20%', text:'Топливо сгорает полнее, и больше энергии через коленвал уходит в колёса. Около 500 тыс. вон экономии в месяц при 400 км в день.', dur:5200}
+];
+const $=id=>root.querySelector('#'+id);
+let vb={x:0,y:30,w:1200,h:675}, from=null, to=null, camT0=0, camDur=1;
+let scene=0, playing=true, sceneT0=0, timer=null, cleanTimer=null;
+
+function fit(r){const A=svg.clientWidth/Math.max(1,svg.clientHeight);let w=r.w,h=r.h;if(w/h>A)h=w/A;else w=h*A;return{x:r.x+r.w/2-w/2,y:r.y+r.h/2-h/2,w,h}}
+function applyVB(){svg.setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`);svg.style.setProperty('--k',(vb.w/Math.max(1,svg.clientWidth)).toFixed(4))}
+function camTo(r,ms){to=fit(r);if(reduce||!ms){vb={...to};from=null;applyVB();return}from={...vb};camT0=performance.now();camDur=ms}
+const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+
+function setScene(i,{auto=true,instant=false}={}){
+  scene=i;const s=shots[i];
+  svg.dataset.scene=i;svg.parentNode.dataset.scene=i;svg.classList.remove('clean');
+  camTo(s.rect,instant?0:(i===2?1500:1100));
+  clearTimeout(cleanTimer);
+  if(i===2){cleanTimer=setTimeout(()=>svg.classList.add('clean'),reduce?0:2600)}
+  if(i===3)svg.classList.add('clean');
+  sceneT0=performance.now();
+  clearTimeout(timer);
+  if(auto&&playing)timer=setTimeout(()=>setScene((i+1)%4),s.dur);
+}
+
+// bubbles & h2 dots
+const NS='http://www.w3.org/2000/svg';
+const mk=(g,n,f)=>[...Array(n)].map((_,i)=>{const c=document.createElementNS(NS,'circle');c.setAttribute('class','bub');c.setAttribute('r',(f.r0+Math.random()*f.r1).toFixed(2));$(g).appendChild(c);return{c,x:f.x0+Math.random()*f.w,ph:Math.random(),sp:f.s0+Math.random()*f.s1,y0:f.y0,h:f.h}});
+const bubbles=[...mk('tankBub',10,{r0:1.2,r1:1.6,x0:112,w:66,y0:144,h:66,s0:.25,s1:.25}),...mk('sepBub',6,{r0:1,r1:1.2,x0:19,w:16,y0:157,h:31,s0:.6,s1:.5})];
+const dd=$('device-detail'), DS=0.2; let lcdT=0;
+const flowPath=$('h2flow'), flowLen=flowPath.getTotalLength();
+const cyl=[...root.querySelectorAll('#engine-detail .cyl')].map((g,i)=>({cx:75+i*74,off:[0,480,240,600,120,360][i],pist:g.querySelector('.pist'),rod:g.querySelector('.rod'),big:g.querySelector('.big'),thr:g.querySelector('.thr'),vIn:g.querySelector('.vIn'),vEx:g.querySelector('.vEx'),flame:g.querySelector('.flame'),soot:g.querySelector('.sootd'),spray:g.querySelector('.spray')}));
+const mkp=(n,f)=>[...Array(n)].map((_,j)=>{const c=document.createElementNS(NS,'circle');$('engParts').appendChild(c);return Object.assign({c,ph:j/n,j},f(j))});
+const galIn=mkp(16,j=>({h2:j%2===0})), galEx=mkp(14,()=>({})), dropIn=mkp(12,j=>({ci:j%6,h2:j<6})), riseEx=mkp(12,j=>({ci:j%6}));
+const dots=[...Array(6)].map((_,n)=>{const c=document.createElementNS(NS,'circle');c.setAttribute('class','h2dot');c.setAttribute('r','.7');$('h2dots').appendChild(c);return{c,ph:n/6}});
+const wheels=[...root.querySelectorAll('.wheel')];
+const smoke=[...$('smoke').children].map((c,n)=>({c,ph:n/3}));
+
+let last=performance.now(), wheelA=0, road=0, crank=0;
+function frame(now){
+  if(!alive)return;
+  const dt=Math.min(50,now-last)/1000;last=now;
+  if(from){const t=Math.min(1,(now-camT0)/camDur),e=ease(t);vb={x:from.x+(to.x-from.x)*e,y:from.y+(to.y-from.y)*e,w:from.w+(to.w-from.w)*e,h:from.h+(to.h-from.h)*e};if(t>=1)from=null}
+  applyVB();
+  const k=vb.w/Math.max(1,svg.clientWidth);
+  const tt=now/1000;
+  // flows
+  flowPath.setAttribute('stroke-dasharray',`${3*k} ${5*k}`);flowPath.setAttribute('stroke-dashoffset',`${-tt*40*k}`);
+  ['drive-main','drive-rear'].forEach(id=>{const e=$(id);e.setAttribute('stroke-dasharray',`${6*k} ${6*k}`);e.setAttribute('stroke-dashoffset',`${reduce?0:-tt*60*k}`)});
+  const wp=$('wire-pulse');wp.setAttribute('stroke-dasharray',`${2*k} ${6*k}`);wp.setAttribute('stroke-dashoffset',`${-tt*30*k}`);
+  if(!reduce){
+    bubbles.forEach(b=>{const p=(tt*b.sp+b.ph)%1;b.c.setAttribute('cx',(b.x+Math.sin(tt*3+b.ph*6)*1.4).toFixed(2));b.c.setAttribute('cy',(b.y0-p*b.h).toFixed(2));b.c.setAttribute('opacity',(1-p*.7).toFixed(2))});
+    if(scene===1){const kl=k/DS;dd.style.setProperty('--k',kl.toFixed(4));
+      const f=(id,a,b,v)=>{const e=$(id);e.setAttribute('stroke-dasharray',`${a*kl} ${b*kl}`);e.setAttribute('stroke-dashoffset',`${-tt*v*kl}`)};
+      f('fH2',3,4,26);f('fWater',2,3,10);f('fPow',1.4,5,40);
+      $('sgball').setAttribute('cy',(104+Math.sin(tt*5)*6).toFixed(2));
+      $('led').setAttribute('opacity',(Math.floor(tt*2.5)%2)?'1':'.15');
+      if(tt-lcdT>.45){lcdT=tt;const v=11.9+Math.random()*.08,a=1.68+Math.random()*.12;$('dv').textContent=v.toFixed(2)+'V';$('da').textContent=a.toFixed(2)+'A';$('dw').textContent=(v*a).toFixed(2)+'W'}}
+    // engine (inline-6, local coords)
+    const ed=$('engine-detail');
+    if(scene===2){crank+=dt*300;ed.style.setProperty('--k',(k/0.23).toFixed(4))}
+    const clean=svg.classList.contains('clean');
+    const L2=76*76, lift=(ph,a,b)=>ph>a&&ph<b?6*Math.sin(Math.PI*(ph-a)/(b-a)):0;
+    cyl.forEach(c=>{const a=crank-c.off, ph=((a%720)+720)%720, th=a*Math.PI/180;
+      const px=c.cx+20*Math.sin(th), py=206-20*Math.cos(th), wy=py-Math.sqrt(L2-(20*Math.sin(th))**2), crown=wy-26;
+      c.pist.setAttribute('transform',`translate(0 ${crown.toFixed(2)})`);
+      c.rod.setAttribute('d',`M${c.cx-3} ${wy.toFixed(1)} L${(px-4).toFixed(1)} ${py.toFixed(1)} M${c.cx+3} ${wy.toFixed(1)} L${(px+4).toFixed(1)} ${py.toFixed(1)}`);
+      c.big.setAttribute('cx',px.toFixed(1));c.big.setAttribute('cy',py.toFixed(1));
+      c.thr.setAttribute('transform',`rotate(${(a%360).toFixed(1)} ${c.cx} 206)`);
+      c.li=lift(ph,0,190);c.le=lift(ph,530,720);
+      c.vIn.setAttribute('transform',`translate(0 ${c.li.toFixed(2)})`);c.vEx.setAttribute('transform',`translate(0 ${c.le.toFixed(2)})`);
+      const fi=ph>355&&ph<450?Math.sin(Math.PI*(ph-355)/95):0;
+      c.flame.setAttribute('opacity',(fi*(clean?1:.9)).toFixed(2));c.flame.setAttribute('fill',clean?'url(#flameClean)':'url(#flameG)');c.flame.setAttribute('ry',(4+5*fi).toFixed(1));
+      c.soot.setAttribute('opacity',fi.toFixed(2));c.spray.style.opacity=(ph>340&&ph<372)?'1':'0';});
+    $('fly').setAttribute('transform',`rotate(${(crank%360).toFixed(1)} 500 206)`);
+    const P=(o,x,y,r,fill,op)=>{o.c.setAttribute('cx',x.toFixed(1));o.c.setAttribute('cy',y.toFixed(1));o.c.setAttribute('r',r);o.c.style.fill=fill;o.c.setAttribute('opacity',op)};
+    galIn.forEach(o=>{const u=(tt*.35+o.ph)%1;P(o,4+u*480,47+Math.sin(u*20+o.j)*1.5,o.h2?1.8:1.3,o.h2?'var(--h2)':'var(--line)',(!o.h2||clean)?(u<.03?u/.03:1):0)});
+    dropIn.forEach(o=>{const c=cyl[o.ci],u=(tt*1.2+o.ph*3)%1;P(o,c.cx-12+u*4,50+u*36,o.h2?1.8:1.3,o.h2?'var(--h2)':'var(--line)',(c.li>1&&(!o.h2||clean))?1:0)});
+    riseEx.forEach(o=>{const c=cyl[o.ci],u=(tt*1.2+o.ph*3)%1;P(o,c.cx+12,86-u*24,1.6+u*.8,clean?'var(--muted)':'#3a2e26',c.le>1?(clean?.5:.95):0)});
+    galEx.forEach(o=>{const u=(tt*.45+o.ph)%1;P(o,40+u*470,63+Math.sin(u*14+o.j)*1.6,1.4+u*1.8,clean?'var(--muted)':'#3a2e26',clean?(o.j%3===0?.45:0):.85)});
+    dots.forEach(d=>{const p=(tt*.25+d.ph)%1;const pt=flowPath.getPointAtLength(flowLen*(.8+.2*p));d.c.setAttribute('cx',pt.x.toFixed(2));d.c.setAttribute('cy',pt.y.toFixed(2));d.c.setAttribute('opacity',scene===2&&clean?'1':'0')});
+    // driving
+    if(scene===3){wheelA=(wheelA+dt*260)%360;road=(road+dt*220)%70}
+    wheels.forEach(g=>g.setAttribute('transform',`rotate(${wheelA.toFixed(1)} ${g.dataset.cx} 388)`));
+    $('road').setAttribute('stroke-dashoffset',road.toFixed(1));
+    smoke.forEach(m=>{const p=(tt*.4+m.ph)%1;m.c.setAttribute('cx',(520-p*40).toFixed(1));m.c.setAttribute('cy',(416-p*14).toFixed(1));m.c.setAttribute('r',(3+p*9).toFixed(1));m.c.setAttribute('opacity',(0.7*(1-p)).toFixed(2))});
+  }
+  // progress
+  raf=requestAnimationFrame(frame);
+}
+
+function drawIn(){const g=$('truck');g.querySelectorAll('.ln:not(.nodraw)').forEach(el=>el.setAttribute('pathLength','1'));g.classList.remove('drawing');void g.getBoundingClientRect();g.classList.add('drawing');setTimeout(()=>{g.classList.remove('drawing');g.querySelectorAll('[pathLength]').forEach(el=>el.removeAttribute('pathLength'))},2000)}
+
+const ro=new ResizeObserver(()=>{to=fit(shots[scene].rect);if(!from){vb={...to};applyVB()}});ro.observe(root);
+
+setScene(0,{instant:true,auto:false});
+playing=false;
+// start from the first shot each time the animation scrolls into view; stop when it leaves
+function start(){if(playing)return;playing=!reduce;setScene(0,{instant:true,auto:false});if(!reduce){drawIn();timer=setTimeout(()=>setScene(1),shots[0].dur)}}
+function stop(){playing=false;clearTimeout(timer);clearTimeout(cleanTimer)}
+if('IntersectionObserver' in window){io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting?start():stop()),{threshold:.35}).observe(svg)}else start();
+raf=requestAnimationFrame(frame);
+
+return ()=>{alive=false;cancelAnimationFrame(raf);clearTimeout(timer);clearTimeout(cleanTimer);if(io)io.disconnect();ro.disconnect();};
+}
+
+class Component extends DCLogic {
+  scrollTrack(el, dir) {
+    if (!el) return;
+    const card = el.firstElementChild;
+    const step = card ? card.getBoundingClientRect().width + 16 : el.clientWidth * 0.8;
+    el.scrollBy({ left: dir * step, behavior: 'smooth' });
+  }
+  onTrack(key, e) {
+    const on = e.currentTarget.scrollLeft > 4;
+    if (!!(this.state || {})[key] !== on) this.setState({ [key]: on });
+  }
+  animRef(el) {
+    if (el) {
+      if (this._animEl === el) return;
+      if (this._animStop) this._animStop();
+      this._animEl = el;
+      this._animStop = kmMountAnim(el);
+    } else {
+      const cur = this._animEl;
+      queueMicrotask(() => {
+        if (this._animEl === cur && cur && !cur.isConnected) {
+          if (this._animStop) this._animStop();
+          this._animEl = null; this._animStop = null;
+        }
+      });
+    }
+  }
+  renderVals() {
+    const s = this.state || {};
+    if (!this._animRefFn) this._animRefFn = (el) => this.animRef(el);
+    const km = s.km ?? 400;
+    const cons = s.cons ?? 23;
+    const price = s.price ?? 1842;
+    const fuel = km * cons / 100 * 30 * price;
+    const m10 = fuel * 0.10;
+    const m20 = fuel * 0.20;
+    const money = (v) => {
+      if (v >= 950000) {
+        const m = Math.round(v / 100000) / 10;
+        return (Number.isInteger(m) ? String(m) : String(m).replace('.', ',')) + '\u00a0млн';
+      }
+      return Math.round(v / 50000) * 50 + '\u00a0тыс.';
+    };
+    const lo = m20 > 0 ? Math.max(1, Math.round(2900000 / m20)) : 0;
+    const hi = m10 > 0 ? Math.max(1, Math.round(2900000 / m10)) : 0;
+    const monthsWord = (n) => {
+      const a = n % 10, b = n % 100;
+      if (a === 1 && b !== 11) return 'месяц';
+      if (a >= 2 && a <= 4 && (b < 12 || b > 14)) return 'месяца';
+      return 'месяцев';
+    };
+    return {
+      km: km,
+      cons: cons,
+      consLabel: String(cons).replace('.', ','),
+      kmPct: ((km - 100) / 800 * 100).toFixed(1) + '%',
+      consPct: ((cons - 10) / 35 * 100).toFixed(1) + '%',
+      price: price,
+      saveRange: money(m10) + '\u00a0– ' + money(m20),
+      payback: m10 > 0 ? (lo === hi ? lo : lo + '–' + hi) + ' ' + monthsWord(hi) : '—',
+      setKm: (e) => this.setState({ km: Number(e.target.value) }),
+      setCons: (e) => this.setState({ cons: Number(e.target.value) }),
+      setPrice: (e) => {
+        const v = Number(String(e.target.value).replace(/[^0-9]/g, ''));
+        this.setState({ price: v || 0 });
+      },
+      menuOpen: !!s.menu,
+      menuExpanded: s.menu ? 'true' : 'false',
+      burgerPath: s.menu ? 'M6 6l12 12M18 6L6 18' : 'M4 7h16M4 12h16M4 17h16',
+      toggleMenu: () => this.setState({ menu: !s.menu }),
+      closeMenu: () => this.setState({ menu: false }),
+      modalOpen: !!s.modal,
+      modalSent: !!s.modalSent,
+      modalForm: !s.modalSent,
+      modalTitle: s.modal === 'install' ? 'Запись на установку' : 'Оставить заявку',
+      modalText: s.modal === 'install' ? 'Оставьте телефон — подберём удобную дату. Установка с выездом занимает около 2 часов.' : 'Оставьте телефон — перезвоним, ответим на вопросы и проверим совместимость с вашей машиной.',
+      openLead: () => this.setState({ modal: 'lead', modalSent: false, menu: false }),
+      openInstall: () => this.setState({ modal: 'install', modalSent: false, menu: false }),
+      closeModal: () => this.setState({ modal: null, modalSent: false }),
+      closeModalBg: (e) => { if (e.target === e.currentTarget) this.setState({ modal: null, modalSent: false }); },
+      modalKey: (e) => { if (e.key === 'Escape') this.setState({ modal: null, modalSent: false }); },
+      submitModal: (e) => { e.preventDefault(); this.setState({ modalSent: true }); },
+      sent: !!s.sent,
+      notSent: !s.sent,
+      submit: (e) => { e.preventDefault(); this.setState({ sent: true }); },
+      animRef: this._animRefFn,
+      baTrack: (el) => { this.baEl = el; },
+      baPrev: () => this.scrollTrack(this.baEl, -1),
+      baNext: () => this.scrollTrack(this.baEl, 1),
+      revTrack: (el) => { this.revEl = el; },
+      revPrev: () => this.scrollTrack(this.revEl, -1),
+      revNext: () => this.scrollTrack(this.revEl, 1),
+      newsTrack: (el) => { this.newsEl = el; },
+      newsPrev: () => this.scrollTrack(this.newsEl, -1),
+      newsNext: () => this.scrollTrack(this.newsEl, 1),
+      baPrevOp: s.baScrolled ? 1 : 0.4,
+      revPrevOp: s.revScrolled ? 1 : 0.4,
+      newsPrevOp: s.newsScrolled ? 1 : 0.4,
+      baScroll: (e) => this.onTrack('baScrolled', e),
+      revScroll: (e) => this.onTrack('revScrolled', e),
+      newsScroll: (e) => this.onTrack('newsScrolled', e)
+    };
+  }
+}
+
+const C = new Component();
+let V = {}, queued = false, wasModal = false;
+const tpl = (t) => t.replace(/\{\{(\w+)\}\}/g, (m, k) => (V[k] ?? ''));
+function render() {
+  queued = false;
+  V = C.renderVals();
+  document.querySelectorAll('[data-if]').forEach(e => { e.style.display = V[e.dataset.if] ? 'contents' : 'none'; });
+  document.querySelectorAll('[data-text]').forEach(e => { const v = tpl(e.dataset.text); if (e.textContent !== v) e.textContent = v; });
+  document.querySelectorAll('*').forEach(e => {
+    for (const a of e.attributes) {
+      if (!a.name.startsWith('data-bind-')) continue;
+      const name = a.name.slice(10), v = tpl(a.value);
+      if (name === 'value') { if (document.activeElement !== e && e.value !== v) e.value = v; }
+      else if (e.getAttribute(name) !== v) e.setAttribute(name, v);
+    }
+  });
+  if (V.modalOpen && !wasModal) setTimeout(() => { const f = document.getElementById('m4name'); if (f) f.focus(); }, 30);
+  document.body.style.overflow = V.modalOpen ? 'hidden' : '';
+  wasModal = !!V.modalOpen;
+}
+function schedule() { if (!queued) { queued = true; requestAnimationFrame(render); } }
+render();
+['click', 'input', 'change', 'scroll', 'submit', 'keydown'].forEach(t => {
+  document.querySelectorAll('[data-ev-' + t + ']').forEach(el => {
+    const fn = el.getAttribute('data-ev-' + t);
+    el.addEventListener(t, (e) => { const f = V[fn]; if (f) f(e); }, t === 'scroll' ? { passive: true } : undefined);
+  });
+});
+document.querySelectorAll('[data-ref]').forEach(el => { const f = V[el.dataset.ref]; if (f) f(el); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && V.modalOpen) V.closeModal(); });
+
+</script>
+</body>
+</html>
