@@ -602,7 +602,7 @@ section[id],footer[id]{scroll-margin-top:72px}
 <nav aria-label="Покупателю" class="col fnav" style="flex: 1 1 200px; gap: 14px"><p class="small c3">Покупателю</p><a class="body cw" href="#calc" style="text-decoration: none">Калькулятор экономии</a><a class="body cw" href="#price" style="text-decoration: none">Цена и условия</a><a class="body cw" href="#reviews" style="text-decoration: none">Отзывы</a><a class="body cw" href="#news" style="text-decoration: none">Новости и выставки</a><a class="body cw" href="#docs" style="text-decoration: none">Документы</a><a class="body cw" href="#faq" style="text-decoration: none">Вопросы и ответы</a></nav>
 <div class="col fnav" style="flex: 1 1 200px; gap: 14px"><p class="small c3">Связаться</p><a class="body cw" href="tel:+820000000000" style="text-decoration: none">[+82 10-0000-0000]</a><a class="body cw" href="#form" style="text-decoration: none">WhatsApp</a><a class="body cw" href="#form" style="text-decoration: none">Telegram</a><a class="body cw" href="#form" style="text-decoration: none">카카오톡 채널</a><a class="body cw" href="#form" style="text-decoration: none">[email@crystal-logistics.kr]</a></div>
 </div>
-<div class="col" style="gap: 6px"><p class="small c3">크리스탈로지스 (Crystal Logistics) · ИП Ким Евгений · Пхёнтхэк, [адрес]</p><p class="small c3">사업자등록번호 [номер] · 통신판매업 신고번호 [номер]</p></div>
+<div class="col" style="gap: 6px; word-break: keep-all"><p class="small c3">상호: 크리스탈로지스 (Crystal Logistics) · 대표: KIM YEVGENIY (ИП Ким Евгений)</p><p class="small c3">사업자등록번호: 675-24-02147 · 통신판매업 신고번호: [номер]</p><p class="small c3">사업장 소재지: 경기도 평택시 포승읍 여술3길 8-1, 302호 (탑빌)</p></div>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px 24px; padding-top: 24px; border-top: 1px solid #2c2e33">
 <p class="small c3">© 2026 Crystal Logistics</p>
 <div style="display: flex; flex-wrap: wrap; gap: 24px"><a class="small cg" href="#top" style="text-decoration: none">Политика конфиденциальности</a><p class="small cg">한국어 · RU · EN</p></div>
@@ -654,10 +654,10 @@ let raf=0, alive=true, io=null;
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const W={x:28,y:84,w:1112,h:372};
 const shots=[
-  {rect:W, label:'ПЛАН 1 · ОБЩИЙ', eyebrow:'План 1 · Общий', title:'KM-CT4 ставится под кабину', text:'Установка с выездом за 2 часа. Двигатель не трогаем: прибор стоит рядом с воздушным фильтром и питается от штатного аккумулятора.', dur:2400},
-  {rect:{x:886,y:262,w:76,h:66}, label:'ПЛАН 2 · КРУПНЫЙ · РЕНТГЕН', eyebrow:'План 2 · Крупный, рентген', title:'Водород из воды — прямо в дороге', text:'Электролизёр делает водород из воды, автоматика держит режим — на дисплее напряжение, ток и мощность. Водород по трубке уходит в крышку воздушного фильтра и дальше во впуск. Баллона нет, хранить нечего.', dur:5600},
-  {rect:{x:922,y:286,w:136,h:66}, label:'ПЛАН 3 · КРУПНЫЙ · РАЗРЕЗ', eyebrow:'План 3 · Крупный, разрез', title:'Нагар и копоть до установки', text:'Рядная «шестёрка» в разрезе. Без водорода часть топлива догорает не до конца: копоть в камерах, нагар на поршнях, тёмный выхлоп.', title2:'Топливо сгорает полнее', text2:'<span class="num">+15–20%</span> мощности. Водород с воздухом идёт во все цилиндры, нагар с поршней и форсунок уходит, выхлоп светлеет.', dur:7000},
-  {rect:W, label:'ПЛАН 4 · ОБЩИЙ', eyebrow:'План 4 · Общий, в движении', title:'Экономия топлива 10–20%', text:'Топливо сгорает полнее, и больше энергии через коленвал уходит в колёса. Около 500 тыс. вон экономии в месяц при 400 км в день.', dur:5200}
+  {rect:W, label:'ПЛАН 1 · ОБЩИЙ', eyebrow:'План 1 · Общий', title:'KM-CT4 ставится под кабину', text:'Установка с выездом за 2 часа. Двигатель не трогаем: прибор стоит рядом с воздушным фильтром и питается от штатного аккумулятора.', dur:2000},
+  {rect:{x:886,y:262,w:76,h:66}, label:'ПЛАН 2 · КРУПНЫЙ · РЕНТГЕН', eyebrow:'План 2 · Крупный, рентген', title:'Водород из воды — прямо в дороге', text:'Электролизёр делает водород из воды, автоматика держит режим — на дисплее напряжение, ток и мощность. Водород по трубке уходит в крышку воздушного фильтра и дальше во впуск. Баллона нет, хранить нечего.', dur:3800},
+  {rect:{x:922,y:286,w:136,h:66}, label:'ПЛАН 3 · КРУПНЫЙ · РАЗРЕЗ', eyebrow:'План 3 · Крупный, разрез', title:'Нагар и копоть до установки', text:'Рядная «шестёрка» в разрезе. Без водорода часть топлива догорает не до конца: копоть в камерах, нагар на поршнях, тёмный выхлоп.', title2:'Топливо сгорает полнее', text2:'<span class="num">+15–20%</span> мощности. Водород с воздухом идёт во все цилиндры, нагар с поршней и форсунок уходит, выхлоп светлеет.', dur:4600},
+  {rect:W, label:'ПЛАН 4 · ОБЩИЙ', eyebrow:'План 4 · Общий, в движении', title:'Экономия топлива 10–20%', text:'Топливо сгорает полнее, и больше энергии через коленвал уходит в колёса. Около 500 тыс. вон экономии в месяц при 400 км в день.', dur:3600}
 ];
 const $=id=>root.querySelector('#'+id);
 let vb={x:0,y:30,w:1200,h:675}, from=null, to=null, camT0=0, camDur=1;
@@ -671,9 +671,9 @@ const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
 function setScene(i,{auto=true,instant=false}={}){
   scene=i;const s=shots[i];
   svg.dataset.scene=i;svg.parentNode.dataset.scene=i;svg.classList.remove('clean');
-  camTo(s.rect,instant?0:(i===2?1500:1100));
+  camTo(s.rect,instant?0:(i===2?1200:900));
   clearTimeout(cleanTimer);
-  if(i===2){cleanTimer=setTimeout(()=>svg.classList.add('clean'),reduce?0:2600)}
+  if(i===2){cleanTimer=setTimeout(()=>svg.classList.add('clean'),reduce?0:2000)}
   if(i===3)svg.classList.add('clean');
   sceneT0=performance.now();
   clearTimeout(timer);
